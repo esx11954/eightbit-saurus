@@ -72,11 +72,17 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'tutorial',
+          // },
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'javaSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Java',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
