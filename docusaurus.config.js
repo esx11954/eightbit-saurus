@@ -66,7 +66,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Eightbit Saurus',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -84,7 +84,19 @@ const config = {
             position: 'left',
             label: 'Java',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'ccnaSidebar',
+          //   position: 'left',
+          //   label: 'ccna',
+          // },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'lpiSidebar',
+          //   position: 'left',
+          //   label: 'lpi',
+          // },
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
