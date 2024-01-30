@@ -84,6 +84,12 @@ const config = {
             position: 'left',
             label: 'Java',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'mysqlSidebar',
+            position: 'left',
+            label: 'MySQL',
+          },
           // {
           //   type: 'docSidebar',
           //   sidebarId: 'ccnaSidebar',
