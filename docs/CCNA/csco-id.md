@@ -49,7 +49,7 @@ https://id.cisco.com/signin
 
 [公式詳細情報登録ページ(cp.certmetrics.com)](https://cp.certmetrics.com/cisco/en/login)
 
-サインインすると以下の画面が表示されるので、現住所を **ローマ字で** 入力して下さい・
+サインインすると以下の画面が表示されるので、現住所を **ローマ字で** 入力して下さい。
 
 :::tip
 参考までに、画像は以下の住所をローマ字にしたものです。
