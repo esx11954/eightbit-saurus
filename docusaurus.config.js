@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Eightbit Saurus',
   tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/eb_logo_5.svg',
 
   // Set the production url of your site here
   url: 'https://esx11954.github.io',
@@ -69,7 +69,7 @@ const config = {
         title: 'Eightbit Saurus',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/eb_logo_5.svg',
         },
         items: [
           // {
@@ -103,11 +103,11 @@ const config = {
           //   label: 'lpi',
           // },
           // {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // {
+          //   href: 'https://github.com/facebook/docusaurus',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
