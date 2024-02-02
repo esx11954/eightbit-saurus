@@ -5,25 +5,25 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Java',
-    Svg: require('@site/static/img/java.svg').default,
+    // Svg: require('@site/static/img/java.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Java is a multi-platform, object-oriented, and network-centric language that can be used as a platform in itself.
       </>
     ),
     link: '/eightbit-saurus/docs/category/環境構築',
+    img: 'img/java_icon.png',
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'MySQL',
+    // Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        MySQL is an open source relational database management system (RDBMS) based on Structured Query Language (SQL).
       </>
     ),
-    link: '/eightbit-saurus/docs/category/環境構築',
+    link: '/eightbit-saurus/docs/MySQL/Install',
+    img: 'img/mysql_icon.png',
   },
   {
     title: 'Powered by React',
@@ -37,16 +37,16 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description, link}) {
+function Feature({Svg, title, description, link, img}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        {/* <Svg className={styles.featureSvg} role="img" /> */}
+        <a href={link}><img src={img}/></a>
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
-        <a href={link}>Go!</a>
       </div>
     </div>
   );
