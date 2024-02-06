@@ -26,14 +26,14 @@ const FeatureList = [
     img: 'img/mysql_icon.png',
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Excel VBA',
+    // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The VBA programming language allows users to access functions beyond what is available in the MS Office applications.
       </>
     ),
+    img: 'img/excel_icon.png',
   },
 ];
 
