@@ -64,7 +64,8 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/eightbit_saurus.png',
+      // image: 'img/eightbit_saurus.png',
+      image: 'img/eb_saurus2.png',
       navbar: {
         title: 'Eightbit Saurus',
         logo: {
