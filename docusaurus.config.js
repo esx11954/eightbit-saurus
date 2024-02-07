@@ -30,8 +30,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'ja',
-    locales: ['ja'],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
@@ -66,6 +66,11 @@ const config = {
       // Replace with your project's social card
       // image: 'img/eightbit_saurus.png',
       image: 'img/eb_saurus2.png',
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
       navbar: {
         title: 'Eightbit Saurus',
         logo: {
@@ -154,7 +159,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} EIGHTBIT, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
