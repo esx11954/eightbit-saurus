@@ -96,6 +96,12 @@ const config = {
             position: 'left',
             label: 'MySQL',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'networkSidebar',
+            position: 'left',
+            label: 'Network',
+          },
           // {
           //   type: 'docSidebar',
           //   sidebarId: 'ccnaSidebar',
