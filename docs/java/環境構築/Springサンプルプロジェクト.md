@@ -101,8 +101,8 @@ Eclipse画面下のコンソールに実行時のログが表示され、画面�
 ![sample](./img/spirng_project/sample12.png)
 
 任意のブラウザにて、以下のURLにアクセスし、画面と同じ様に表示されることを確認しましょう
-- http://localhost:8080
 - http://localhost:8080/hello
+- http://localhost:8080/hello?name=eightbit
 
 ![sample](./img/spirng_project/sample13.png)
 ![sample](./img/spirng_project/sample14.png)
