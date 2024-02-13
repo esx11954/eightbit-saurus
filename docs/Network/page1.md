@@ -19,7 +19,7 @@ sidebar_position: 1
 
 [パケットトレーサー インストール手順](https://infra-note.net/cisco-packet-tracer/#index_id1)
 
-:::info
+:::note
 ## ネットワークとは
 一般的に「**網**」を意味する英単語が語源で、人やモノをつないで情報を互いに共有しあうためのものです
 例えば、会社というネットワークでは、さまざまな部署が互いに情報を共有しあい、会社の利益を上げるという同じ目的のために用意されます
@@ -49,7 +49,7 @@ sidebar_position: 1
     <div>
 ### 1. 導入動画
 
-[動画リンク](https://drive.google.com/drive/folders/1ZQyJMaur5MWMoYINnIW4F3IV9P8vVR9z?usp=sharing)
+[動画リンク](https://drive.google.com/drive/folders/1J0e65zstbx4Cv57UdoTMinEOOegeXnT8?usp=sharing)
 
 上記のリンクの **第1章 LANテクノロジーから第4章 IPアドレッシング** までの動画を視聴して下さい  
 視聴が完了したらら担当講師までお声がけいただき確認テストを実施してください
@@ -65,7 +65,7 @@ sidebar_position: 1
 全ての回答が完了したら担当講師まで解答用紙ファイルをDMで送りましょう
 
 :::caution
-※確認テストは質問をしていただいてもいいですし、調べながら回答しても大丈夫ですが、  
+確認テストは質問をしていただいてもいいですし、調べながら回答しても大丈夫ですが、  
 大事な内容なので全問正解するまで繰り返し実施します
 :::
 
@@ -78,7 +78,7 @@ sidebar_position: 1
     <summary>パケットトレーサー課題</summary>
     <div>
 
-[動画リンク](https://drive.google.com/drive/folders/1ZQyJMaur5MWMoYINnIW4F3IV9P8vVR9z?usp=sharing)
+[動画リンク](https://drive.google.com/drive/folders/1J0e65zstbx4Cv57UdoTMinEOOegeXnT8?usp=sharing)
 
 上記のリンクの続きから視聴して下さい  
 5章(IPルーティング)まで終わったら、以下の課題に着手しましょう
@@ -172,8 +172,8 @@ sidebar_position: 1
 |構成図|![pkt](./img/pkt4.jpg)|
 
 :::caution
-※今回、ダイナミックルーティングは使用しません  
-※ルータの設定は実務さながら、「設定用のPCを用意してコンソール接続」で設定ください
+今回、ダイナミックルーティングは使用しません  
+ルータの設定は実務さながら、「設定用のPCを用意してコンソール接続」で設定ください
 :::
 
     </div>
@@ -195,8 +195,8 @@ sidebar_position: 1
 |構成図|![pkt](./img/pkt5.png)|
 
 :::caution
-※スイッチの型番はCatalyst2960です  
-※スイッチの設定は実務さながら、「設定用のPCを用意してコンソール接続」で設定ください
+スイッチの型番はCatalyst2960です  
+スイッチの設定は実務さながら、「設定用のPCを用意してコンソール接続」で設定ください
 :::
 
     </div>
@@ -216,8 +216,8 @@ sidebar_position: 1
 |構成図|![pkt](./img/pkt6.jpg)|
 
 :::caution
-※スイッチの型番はCatalyst2960です  
-※スイッチの設定は実務さながら、「設定用のPCを用意してコンソール接続」で設定ください
+スイッチの型番はCatalyst2960です  
+スイッチの設定は実務さながら、「設定用のPCを用意してコンソール接続」で設定ください
 :::
 
     </div>
