@@ -33,6 +33,10 @@ PC以外のGUI設定は禁止とします
 ネットワーク構成図に従いIPアドレスとRIPの設定を行ったはずなのですが、いずれのPC同士の通信もうまくいきません  
 問題点を修正しお互いの通信が通るようにしてください  
 
+以下のリンクからファイルをpktファイルをダウンロードして下さい  
+
+[課題ファイルダウンロード](https://drive.google.com/open?id=13A5FMEEgHBMs232KbpWmaJxe1aIQf1no&authuser=m.isobe.reg%40gmail.com&usp=drive_fs)
+
 :::caution
 PC以外のGUI設定は禁止とします  
 RIPによるルーティングを必須とし、スタティックルートやそれ以外のルーティングプロトコルは禁止します
