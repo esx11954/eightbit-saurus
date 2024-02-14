@@ -35,6 +35,17 @@ const FeatureList = [
     ),
     img: 'img/excel_icon.png',
   },
+  {
+    title: 'Network',
+    // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        Computer Networks are one of the important aspects of Computer Science.
+      </>
+    ),
+    link: '/eightbit-saurus/docs/Network/page1',
+    img: 'img/network_icon.png',
+  },
 ];
 
 function Feature({Svg, title, description, link, img}) {
