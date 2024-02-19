@@ -92,16 +92,22 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'mysqlSidebar',
+            sidebarId: 'foundationSidebar',
             position: 'left',
-            label: 'MySQL',
+            label: '基礎研修',
           },
-          {
-            type: 'docSidebar',
-            sidebarId: 'networkSidebar',
-            position: 'left',
-            label: 'Network',
-          },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'mysqlSidebar',
+          //   position: 'left',
+          //   label: 'MySQL',
+          // },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'networkSidebar',
+          //   position: 'left',
+          //   label: 'Network',
+          // },
           // {
           //   type: 'docSidebar',
           //   sidebarId: 'ccnaSidebar',
