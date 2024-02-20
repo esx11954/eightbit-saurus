@@ -8,6 +8,8 @@ sidebar_position: 1
 <details>
     <summary>導入</summary>
     <div>
+## 環境確認
+
 お使いのPCにPacketTracerというソフトウェアが入っているかどうかを確認して下さい  
 画面下の検索窓に`packet tracer`と入力していただき、  
 以下のソフトウェアが表示されればインストールされています
