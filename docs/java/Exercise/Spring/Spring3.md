@@ -86,6 +86,18 @@ Eclipseから展開したフォルダ内のプロジェクトをインポート�
 |---|---|
 | **パスワード** | **eightbit** |
 
+:::caution
+
+ログイン後、mysqlで「**java.lang.IllegalArgumentException: HOUR_OF_DAY: 0 ->1**」というエラーが出る場合
+
+上記の例外が発生した場合はDBを作り直して下さい   
+
+**原因**  
+過去に日本で導入されたサマータイムという制度が関係しています  
+詳しくは[こちら](https://getore.blogspot.com/2021/07/mysqljavalangillegalargumentexception.html)を参照して下さい
+
+
+:::
         </div>
     </details>
 

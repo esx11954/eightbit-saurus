@@ -46,6 +46,17 @@ const FeatureList = [
     link: '/eightbit-saurus/docs/category/network',
     img: 'img/network_icon.png',
   },
+  {
+    title: 'Linux',
+    // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        In fact, one of the most popular platforms on the planet, Android, is powered by the Linux operating system.
+      </>
+    ),
+    link: '/eightbit-saurus/docs/category/linux',
+    img: 'img/linux_icon2.png',
+  },
 ];
 
 function Feature({Svg, title, description, link, img}) {
