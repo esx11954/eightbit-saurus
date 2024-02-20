@@ -22,7 +22,7 @@ const FeatureList = [
         MySQL is an open source relational database management system (RDBMS) based on Structured Query Language (SQL).
       </>
     ),
-    link: '/eightbit-saurus/docs/MySQL/Install',
+    link: '/eightbit-saurus/docs/category/mysql',
     img: 'img/mysql_icon.png',
   },
   {
@@ -43,7 +43,7 @@ const FeatureList = [
         Computer Networks are one of the important aspects of Computer Science.
       </>
     ),
-    link: '/eightbit-saurus/docs/Network/page1',
+    link: '/eightbit-saurus/docs/category/network',
     img: 'img/network_icon.png',
   },
 ];
