@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Network基礎研修
+# Network基礎
 
 
 <details>

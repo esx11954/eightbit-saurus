@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Linux基礎研修
+# Linux基礎
 
 <details>
     <summary>導入</summary>
