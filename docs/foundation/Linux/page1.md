@@ -305,6 +305,94 @@ teratermを起動し、**ホスト** 欄に先ほど確認した IPアドレス 
 <details>
     <summary>課題</summary>
     <div>
+## 概要
+virtualbox上に2台のマシンを作成します  
+1台は**DNSサーバ**の役割を、もう1台は**WEBサーバ**の役割を持たせましょう  
+ 
+最終的に以下の要件を満たすこと  
+1. ホスト(Windows)PCのブラウザで任意のドメインを入力
+2. DNSサーバで名前解決を行う
+3. ホストPCのブラウザにWordpressで作成したホームページが表示される
+
+## 環境構成
+![linux](./img/kadai1.png)
+
+## 進め方
+- 知らない単語は調べましょう
+- web上の特定の手順を鵜呑みにしないようにしましょう
+- 詰まってしまった場合は講師まで連絡しましょう
+
+
+<details>
+    <summary>Step1 (Webサーバ構築)</summary>
+    <div>
+virtualboxでcentos7のマシンを1台構築し、LAMP環境を構成してください  
+（インストール中サーバGUIを使用するにはチェックを入れないでください）  
+
+### 1. LAMP環境構築
+|LAMP|ソフトウェア名称|
+|:---:|---|
+|L|**L**inux (CentOS７.9)|
+|A|**A**pache|
+|M|**M**ySQL|
+|P|**p**hp|
+
+上記のアプリを**バージョンに注意して**インストールしましょう  
+MySQL, phpに関しては指定のバージョンをインストールするために**リポジトリ**のインストールが必ず必要です
+
+:::caution
+※各種ソフトウェアバージョン指定   
+
+|ソフトウェア|バージョン指定|
+|--|--|
+|PHP |8.0以上|
+|MySQL |8.0以上|
+|ワードプレス|最新バージョン|
+:::
+
+### 2.  wordpressインストール ~ 動作確認
+
+LAMP環境ができましたら、Wordpressをダウンロードし、  
+windowsPCのブラウザからホームページを見れるようにしてください  
+以上でStep1は完了です  
+
+:::note
+#### その他必須設定
+- **selinux**無効化
+- **firewall**でhttpを許可
+- Wordpress用データベースの作成およびユーザの作成&権限追加
+- wordpressディレクトリの**所有者変更**
+- httpd.conf **ドキュメントルート**の変更
+:::
+
+
+    </div>
+</details>
+
+<details>
+    <summary>Step2 (DNSサーバ構築)</summary>
+    <div>
+
+BIND(**named-chroot**)をインストールしてDNSサーバを構築して下さい  
+
+:::tip
+#### 必須設定
+- **selinux**無効化
+- **firewall**でdnsを許可
+- zoneファイル作成 & 権限変更
+- named.conf の編集
+- resolv.conf の編集
+:::
+
+:::note
+#### 構築が完了したら
+1. 設定したドメインがローカルで名前解決ができるかどうか、**nslookup**コマンドを使用して確認しましょう  
+2. windowsPCから同じ様に**nslookup**コマンドで確認しましょう  
+3. windowsPCのブラウザから設定したドメインにアクセスしてwordpressの画面が表示されることを確認しましょう
+:::
+
+    </div>
+</details>
 
     </div>
 </details>
