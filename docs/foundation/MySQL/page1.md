@@ -189,6 +189,10 @@ select * from weather;
 |【演習】グループ化|[【課題】グループ化](https://forms.gle/FnFqYdAoBhF8WQiM9)|
 |【演習】副問合せ|[【課題】副問合せ](https://forms.gle/pAKtJvThqiWJoP5d8)|
 
+:::danger
+課題で記入するクエリは、**実際に実行して動作したクエリ**をコピペして下さい
+:::
+
 ### 課題の流れ
 1. 該当動画まで視聴したら課題に着手する
 2. フォーム画面から記入完了したら送信

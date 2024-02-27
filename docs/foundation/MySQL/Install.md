@@ -185,9 +185,9 @@ Windows上におけるサービス名や自動起動の設定画面
 
 ## 動作確認
 
-コマンドプロンプトを立ち上げ、以下のパスに移動して下さい  
-(x の箇所はご自身の環境に合わせて考えて下さい)  
-`C:\Program Files\MySQL\MySQL Server 8.x\bin`  
+コマンドプロンプトを立ち上げ、以下のコマンドで移動して下さい  
+(x の箇所はご自身の環境に合わせて置換しましょう)  
+`cd C:\Program Files\MySQL\MySQL Server 8.x\bin`  
 
 移動後、`mysql --version` を実行し、  
 インストールしたMySQLのバージョンが出てくることを確認して下さい
