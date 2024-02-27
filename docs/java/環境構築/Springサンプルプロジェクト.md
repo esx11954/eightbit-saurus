@@ -81,10 +81,11 @@ public String hello(@RequestParam(value = "name", defaultValue = "World") String
 これは同名メソッドやアノテーションが複数クラスに定義されていることに起因します  
 この機能を使用してインポートする場合はインポート対象がどのパッケージに所属するのかを確認するように心がけましょう
 
+![sample](./img/spirng_project/sample9.png)
 :::
 
 
-![sample](./img/spirng_project/sample9.png)
+
 
 全てのエラーを解消し、以下のような状態になっていることを確認して下さい
 

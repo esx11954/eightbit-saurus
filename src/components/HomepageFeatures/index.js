@@ -33,6 +33,7 @@ const FeatureList = [
         The VBA programming language allows users to access functions beyond what is available in the MS Office applications.
       </>
     ),
+    link: '/eightbit-saurus/docs/category/excelvba',
     img: 'img/excel_icon.png',
   },
   {

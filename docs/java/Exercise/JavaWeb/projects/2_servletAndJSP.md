@@ -1,8 +1,14 @@
+---
+sidebar_position: 3
+---
+
+# 演習 2
+
 以下のプロジェクトを作成してください。
 
 | 項目名 | 値 |
 | --- | --- |
-| 動的Webプロジェクト名 | serverAndJsp |
+| 動的Webプロジェクト名 | **serverAndJsp** |
 |||
 | パッケージ名 | servlet |
 | サーブレット名 | Servlet.java |
@@ -14,6 +20,11 @@
 | CSSファイル | style.css |
 | 画像ファイル | background.jpg |
 
+:::info
+CSSファイル、画像ファイルは **[こちら](./files/servletAndJSP.zip)** からダウンロードして使用してください
+:::
+
+
 ![web](./Image/Image06.png)
 
 上のようなプロジェクト階層になればOK
@@ -23,7 +34,7 @@
 - Servlet.java
 - view.jsp
 
-実行時の画像
+## 実行時の画像
 
 起動時(Servlet.java)、【get】ボタン押下時
 
@@ -33,12 +44,14 @@
 
 ![web](./Image/Image03.png)
 
+## ファイル編集
+
 画像のように各ファイルを編集してください。
 
-Servlet.java
+#### Servlet.java
 
 ![web](./Image/Image07.png)
 
-view.jsp
+#### view.jsp
 
 ![web](./Image/Image08.png)

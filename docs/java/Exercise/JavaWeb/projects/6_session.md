@@ -1,8 +1,14 @@
+---
+sidebar_position: 7
+---
+
+# 演習 6
+
 以下のプロジェクトをワークスペースにインポートしてください
 
 | 項目名 | 値 |
 | --- | --- |
-| 動的webプロジェクト名 | session |
+| 動的webプロジェクト名 | **session** |
 |||
 | パッケージ名 | servlet |
 | サーブレット名 | SessionServlet.java |
@@ -32,7 +38,7 @@
 
 ファイルは作成済みなので必要箇所を追記してください
 
-実行時の画像
+## 実行時の画像
 
 起動時(SessionServlet.java)
 
@@ -55,25 +61,29 @@ Name欄を適当に、Pass欄は『reglecasse』を記入して【login】ボタ
 ![web](./Image/Image35.png)
 
 【next】ボタン押下時
+
 ![web](./Image/Image36.png)
 
 【logout】ボタン押下時
+
 ![web](./Image/Image37.png)
+
+## ファイル編集
 
 画像のように各ファイルを編集してください
 
-SessionServlet.java(doGet)
+#### SessionServlet.java(doGet)
 
 ![web](./Image/Image38.png)
 
-SessionServlet.java(doPost)前半
+#### SessionServlet.java(doPost)前半
 
 ![web](./Image/Image39.png)
 
-SessionServlet.java(doPost)後半
+#### SessionServlet.java(doPost)後半
 
 ![web](./Image/Image40.png)
 
-myPage.jsp
+#### myPage.jsp
 
 ![web](./Image/Image41.png)

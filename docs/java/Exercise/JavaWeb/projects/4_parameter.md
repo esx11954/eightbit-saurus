@@ -1,8 +1,14 @@
+---
+sidebar_position: 5
+---
+
+# 演習 4
+
 以下のプロジェクトを作成してください
 
 |項目名 | 値 |
 | --- | --- |
-| 動的webプロジェクト名 | parameter |
+| 動的webプロジェクト名 | **parameter** |
 |||
 | パッケージ名 | servlet |
 | サーブレット名 | ParamServlet.java |
@@ -19,6 +25,11 @@
 | Jarファイル | jstl-api-1.2.jar |
 | | jstl-impl-1.2.jar |
 
+:::info
+CSSファイル、画像ファイル、jarファイルは **[こちら](./files/parameter.zip)** からダウンロードして使用してください
+:::
+
+
 ![web](./Image/Image14.png)
 
 上のようなプロジェクト階層になればOK
@@ -29,7 +40,7 @@
 - param.jsp
 - param.html
 
-実行時の画像
+## 実行時の画像
 
 起動時(param.html)
 
@@ -43,27 +54,29 @@
 
 ![web](./Image/Image17.png)
 
-【戻る】ボタン(共通)押下時…param.htmlに戻る
+戻る】ボタン(共通)押下時…param.htmlに戻る
+
+## ファイル編集
 
 画像のように各ファイルを編集してください
 
-paramServlet.java(doGet)
+#### paramServlet.java(doGet)
 
 ![web](./Image/Image18.png)
 
- paramServlet.java(doPost以下)
+#### paramServlet.java(doPost以下)
 
 ![web](./Image/Image19.png)
 
- param.html
+#### param.html
 
 ![web](./Image/Image20.png)
 
- param.jsp
+#### param.jsp
 
 ![web](./Image/Image21.png)
 
-- 応用
+## 応用
 
 ヘッダー情報のリファラを使用し、リダイレクト処理を加えます  
 こうすることで想定外のアクセスに対処することが可能です

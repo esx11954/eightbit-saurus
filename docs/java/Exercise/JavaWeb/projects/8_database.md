@@ -1,8 +1,14 @@
+---
+sidebar_position: 9
+---
+
+# 演習 8
+
 以下のプロジェクトをワークスペースにインポートしてください
 
 | 項目名 | 値 |
 | --- | --- |
-| 動的webプロジェクト名 | database |
+| 動的webプロジェクト名 | **database** |
 |||
 | パッケージ名 | controller |
 | サーブレット名 | DBServlet.java |
@@ -41,45 +47,40 @@
 
 ファイルは作成済みなので必要箇所を追記してください
 
-※JDBCドライバを使用するため以下の設定を行ってください
+## JDBCドライバ追加
 
-![web](./Image/Image59.png)
+:::caution
+※JDBCドライバを使用するため以下の設定をまだできていない場合は行ってください
+:::
+[手順リンク](/eightbit-saurus/docs/java/環境構築/Eclipse環境構築3)
 
-【Run】タブをクリック
 
-![web](./Image/Image60.png)
-
-【Run Configurations...】をクリック
-
-![web](./Image/Image61.png)
-
-【Classpath】タブをクリック
-
-![web](./Image/Image62.png)
-
-【User Entries】をクリック
-
-![web](./Image/Image63.png)
-
-【Ad External JARs...】をクリック
-
-![web](./Image/Image64.png)
-
-上記のjarファイルを選択して【開く】ボタン押下
-
-![web](./Image/Image65.png)
-
-右下の【Run】ボタンをクリック...終わり
+## DB作成
 
 次に、データベースの設定をします
 
-database_sql.txtの中身をコピーし、MySQL Command Clientにペーストしましょう  
-その後、useコマンドでjavawebに移動し、select文で全件抽出します  
+以下の中身をコピーし、MySQLに **root** ユーザでログインして以下を実行してください  
+
+```sql
+create database javaweb;
+
+use javaweb;
+
+create table if not exists tweet (
+id int NOT NULL PRIMARY KEY AUTO_INCREMENT, 
+content varchar(100), 
+date timestamp default CURRENT_TIMESTAMP);
+
+INSERT INTO tweet (content) VALUES ('test');
+
+select * from tweet;
+```
+ 
 以下のようになればOKです
 
 ![web](./Image/Image66.png)
-![web](./Image/Image02.png)
-実行時の画像
+
+## 実行時の画像
 
 起動時(DBServlet.java)
 
@@ -97,32 +98,34 @@ database_sql.txtの中身をコピーし、MySQL Command Clientにペースト�
 
 ![web](./Image/Image70.png)
 
+## ファイル編集
+
 画像のように各ファイルを編集してください
 
-DBServlet.java
+#### DBServlet.java
 
 ![web](./Image/Image71.png)
 
-Dao.java①
+#### Dao.java①
 
 ![web](./Image/Image72.png)
 
-Dao.java②
+#### Dao.java②
 
 ![web](./Image/Image73.png)
 
-Select.java
+#### Select.java
 
 ![web](./Image/Image74.png)
 
-Insert.java
+#### Insert.java
 
 ![web](./Image/Image75.png)
 
-Delete.java
+#### Delete.java
 
 ![web](./Image/Image76.png)
 
-db.jsp
+#### db.jsp
 
 ![web](./Image/Image77.png)

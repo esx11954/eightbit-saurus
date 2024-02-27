@@ -1,8 +1,14 @@
+---
+sidebar_position: 8
+---
+
+# 演習 7
+
 以下のプロジェクトをワークスペースにインポートしてください
 
 | 項目名 | 値 |
 | --- | --- |
-| 動的webプロジェクト名 | beans |
+| 動的webプロジェクト名 | **beans** |
 |||
 | パッケージ名 | servlet |
 | サーブレット名(URLマッピング) | BeansServlet.java(/ BeansServlet) |
@@ -34,7 +40,7 @@
 
 ファイルは作成済みなので必要箇所を追記してください
 
-実行時の画像
+## 実行時の画像
 
 起動時(BeanServlet.java)
 
@@ -72,29 +78,31 @@
 
 ![web](./Image/Image51.png)
 
+## ファイル編集
+
 画像のように各ファイルを編集してください
 
-BeanServlet.java(doPost)
+#### BeanServlet.java(doPost)
 
 ![web](./Image/Image52.png)
 
 
-AddMenuServlet.java(doPost)
+#### AddMenuServlet.java(doPost)
 
 ![web](./Image/Image53.png)
 
-DeleteMenuServlet.java(doGet)
+#### DeleteMenuServlet.java(doGet)
 
 ![web](./Image/Image54.png)
 
-CreateMunu.java(createMenuList)
+#### CreateMunu.java(createMenuList)
 
 ![web](./Image/Image55.png)
 
-beansTop.jsp
+#### beansTop.jsp
 
 ![web](./Image/Image56.png)
 
-edit.jsp
+#### edit.jsp
 
 ![web](./Image/Image57.png)

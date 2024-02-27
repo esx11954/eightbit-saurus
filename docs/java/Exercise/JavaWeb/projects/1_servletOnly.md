@@ -2,11 +2,13 @@
 sidebar_position: 2
 ---
 
+# 演習 1
+
 以下のプロジェクトを作成してください。
 
 | 項目名 | 値 |
 | --- | --- |
-| 動的Webプロジェクト名 | servletOnly |
+| 動的Webプロジェクト名 | **servletOnly** |
 |||
 | パッケージ名 | servletOny |
 | サーブレット名 | ServletOnly.java |
@@ -16,6 +18,10 @@ sidebar_position: 2
 | CSSファイル | style.css |
 | 画像ファイル | background.jpg |
 
+:::info
+CSSファイル、画像ファイルは **[こちら](./files/servletOnly.zip)** からダウンロードして使用してください
+:::
+
 ![web](./Image/Image01.png)
 
 上のようなプロジェクト階層になればOK
@@ -24,7 +30,7 @@ sidebar_position: 2
 
 - ServletOnly.java
 
-実行時の画像
+## 実行時の画像
 
 起動時(ServletOnly.java)、【get】ボタン押下時
 
@@ -34,12 +40,14 @@ sidebar_position: 2
 
 ![web](./Image/Image03.png)
 
+## ファイル編集
+
 画像のように各ファイルを編集してください。
 
-ServletOnly(doGet)
+#### ServletOnly(doGet)
 
 ![web](./Image/Image04.png)
 
- ServletOnly.java(doPost)
+#### ServletOnly.java(doPost)
 
 ![web](./Image/Image05.png)
