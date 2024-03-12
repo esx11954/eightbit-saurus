@@ -92,6 +92,12 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'pythonSidebar',
+            position: 'left',
+            label: 'Python',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'foundationSidebar',
             position: 'left',
             label: '基礎研修',
