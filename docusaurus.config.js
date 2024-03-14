@@ -60,6 +60,13 @@ const config = {
     ],
   ],
 
+  scripts: [
+    {
+      src: '/eightbit-saurus/js/guardian.js',
+      async: false,
+    },
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
