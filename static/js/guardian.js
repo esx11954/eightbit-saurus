@@ -72,7 +72,6 @@ async function sha256(text){
     return Array.from(new Uint8Array(digest)).map(v => v.toString(16).padStart(2,'0')).join('')
 }
 
-// 上上下下左右左右BABA
 function keydown_event(e) {
 	
 	let key = '';
@@ -102,7 +101,7 @@ function keypress_event(e) {
     }else{
         // command += e.key;
         commandCode += e.keyCode;
-        if(commandCode == '384038403937393766986597'){
+        if(commandCode == '38403840373937396698659766986597'){
             const newPw = prompt("Enter New Password");
             sha256(newPw).then(hash => console.log(hash));
             // command = '';
