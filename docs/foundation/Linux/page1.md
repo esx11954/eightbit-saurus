@@ -302,6 +302,15 @@ teratermを起動し、**ホスト** 欄に先ほど確認した IPアドレス 
     </div>
 </details>
 
+上記の手順が完了したら以下の動画で学習を進めて下さい  
+
+[**【Linux動画リンク】**](https://drive.google.com/drive/folders/14_1YP1DNkI2bV8HTzek4C0i73et3iTvt?usp=sharing)
+
+:::caution
+動画内の講師と同じようにコマンドを打ちながら学習を進めてください  
+コマンド入力は必ずテラタームで入力するようにお願いします  
+:::
+
 <details>
     <summary>課題</summary>
     <div>
