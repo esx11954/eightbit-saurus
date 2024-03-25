@@ -1,28 +1,48 @@
 ---
-sidebar_position: 11
+sidebar_position: 10
 ---
 
-# 11. 例外処理
+# 10. 例外処理
 
-画像の様な実行結果となるように以下のプログラムに追記して下さい
+以下のJavaファイルを用意して下さい
 
 ```java showLineNumbers 
-package javaB.argument.exam;
+package javaB.exception;
 
-class Args2{
-    public static void main(String[] args){
-        if(args.length > 0){
-            String str = "";
-            /* ★Args2.png の実行結果となるようにfor文でargsの中身を連結しましょう */
-
-            System.out.println("引数として " + str + "を受け取りました");
-        }else{
-            System.out.println("引数を入力してください");
-        }
+class ThrowsException{
+    public void parse(String i) throws Exception{
+        System.out.println("引数を " + Integer.parseInt(i) + " に数値変換しました");
     }
 }
 ```
 
+実行結果と同様になるように以下のプログラムに追記して下さい
+
+```java {5-6} showLineNumbers 
+package javaB.exception;
+
+class ThrowsMain{
+    public static void main(String[] args){
+        // ★以下に処理を追記
+
+    }
+}
+```
+
+
 #### 実行結果
-![args](./image/Args2.png)
+```
+> java javaB.exception.ThrowsMain 123
+引数を 123 に数値変換しました
+```
+
+```
+> java javaB.exception.ThrowsMain
+引数を入力してください
+```
+
+```
+> java javaB.exception.ThrowsMain test
+test は数値に変換できませんでした
+```
 

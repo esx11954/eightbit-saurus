@@ -9,6 +9,7 @@ sidebar_position: 3
 以下の要件を満たすようにプログラムに追記して下さい
 - 実行時引数に渡した値が電話番号(例：123-4567-8910)形式であれば「~(受け取った引数) は電話番号です」と出力する
 - 実行時引数に渡した値が電話番号以外の場合、「~(受け取った引数) は電話番号ではありません」と出力する
+- 正規表現を使用する
 
 ```java {14-15} showLineNumbers 
 package javaB.regex;
@@ -24,7 +25,7 @@ class RegularEx1{
             System.out.println("引数を入力してください");
             return;
         }
-        /* 以下に正規表現を使用して要件に沿うプログラムを記述してください */
+        /* 受け取った文字列が電話番号かどうか判定 */
 
     }
 }
@@ -32,10 +33,12 @@ class RegularEx1{
 
 ## 問題2
 以下の要件を満たすようにプログラムに追記して下さい
-- 実行時引数に渡した値が電話番号(例：123-4567-8910)形式であれば「~(受け取った引数) は電話番号です」と出力する
-- 実行時引数に渡した値が電話番号以外の場合、「~(受け取った引数) は電話番号ではありません」と出力する
+- 実行時 `Scanner` クラスを使用してユーザからの入力を受け取る
+- 受け取った値が数値の場合、「~(受け取った値) は数値です」と出力する
+- 受け取った値が数値以外の場合、「~(受け取った値) は数値ではありません」と出力する
+- 正規表現を使用する
 
-```java {14-15} showLineNumbers 
+```java {9-10,14-15} showLineNumbers 
 package javaB.regex;
 
 import java.util.regex.Pattern;
@@ -44,21 +47,13 @@ import java.util.Scanner;
 class RegularEx2{
     public static void main(String[] args){
         System.out.print("入力してください > ");
-        // 入力を受け取るためのクラス
-        Scanner scanner = new Scanner(System.in);
-        String input_text = scanner.nextLine();
+        /* ユーザからの入力を受け取る */
 
         // 改行
         System.out.println();
 
-        // 受け取った文字列が数字かどうか判定
-        boolean bool = Pattern.matches("^[0-9]*$", input_text);
+        /* 受け取った文字列が数字かどうか判定 */
 
-        if(bool){
-            System.out.println(input_text + " は数値です");
-        }else{
-            System.out.println(input_text + " は数値ではありません");
-        }
     }
 }
 ```

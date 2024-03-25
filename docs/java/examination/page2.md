@@ -4,10 +4,10 @@ sidebar_position: 2
 
 # 2. 多次元配列
 
-画像の様な実行結果となるように以下のプログラムに追記して下さい
+実行結果と同様となるように以下のプログラムに追記して下さい
 
 ```java {8-9} showLineNumbers 
-package javaB.multiDim.exam;
+package javaB.multiDim;
 
 class MultiDim2{
     public static void main(String[] args){
@@ -21,5 +21,15 @@ class MultiDim2{
 ```
 
 #### 実行結果
-![args](./image/MultiDim.png)
-
+```
+> java javaB.multiDim.MultiDim2
+犬
+猫
+Java
+C
+Ruby
+2020年
+5月
+15日
+15時
+```

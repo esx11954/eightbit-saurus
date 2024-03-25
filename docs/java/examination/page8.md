@@ -1,28 +1,84 @@
 ---
-sidebar_position: 8
+sidebar_position: 7
 ---
 
-# 8. インターフェース
+# 7. インターフェース
 
-画像の様な実行結果となるように以下のプログラムに追記して下さい
+以下のJavaファイルを用意して下さい
 
 ```java showLineNumbers 
-package javaB.argument.exam;
+package javaB.interFace;
 
-class Args2{
+interface Run{
+    public void run();
+}
+
+interface Eat{
+    public void eat();
+}
+
+interface Dog extends Run, Eat{
+    public void bark();
+}
+
+class BigDog implements Dog{
+public void bark(){
+    System.out.println("わんわん！");
+}
+public void run(){
+    System.out.println("run slowly");
+}
+public void eat(){
+    System.out.println("eat faster");
+}
+}
+
+class SmallDog implements Dog{
+    public void bark(){
+       System.out.println("きゃんきゃん！");
+    }
+    public void run(){
+      System.out.println("run faster");
+    }
+    public void eat(){
+       System.out.println("eat slowly");
+    }
+}
+
+```
+
+以下の実行結果と同様になるようにクラス内に追記して下さい
+
+```java {5-6} showLineNumbers 
+package javaB.interFace;
+
+class InterfaceMain{
     public static void main(String[] args){
-        if(args.length > 0){
-            String str = "";
-            /* ★Args2.png の実行結果となるようにfor文でargsの中身を連結しましょう */
+        // ★ここに追記
 
-            System.out.println("引数として " + str + "を受け取りました");
-        }else{
-            System.out.println("引数を入力してください");
-        }
     }
 }
 ```
 
+
 #### 実行結果
-![args](./image/Args2.png)
+
+```
+> java javaB.interFace.InterfaceMain big
+わんわん！
+run slowly
+eat faster
+```
+
+```
+> java javaB.interFace.InterfaceMain small
+きゃんきゃん！
+run faster
+eat slowly
+```
+
+```
+> java javaB.interFace.InterfaceMain
+引数に「big」 か 「small」を入力してください
+```
 
