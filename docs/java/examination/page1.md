@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # 1. コマンドライン引数
 
-画像の様な実行結果となるように以下のプログラムに追記して下さい
+実行結果と同様となるように以下のプログラムに追記して下さい
 
 ```java {7-8} showLineNumbers 
 package javaB.argument;
