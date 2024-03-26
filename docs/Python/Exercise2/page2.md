@@ -7,6 +7,7 @@ sidebar_position: 2
 #### 概要
 気象庁のサーバにアクセスし、指定した年月の気象情報をスクレイピングします  
 その後取得したデータをデータベースに格納するプログラムを作成します  
+スクレイピング対象[**サンプルページ**](https://www.data.jma.go.jp/stats/etrn/view/daily_s1.php?prec_no=44&block_no=47662&year=2000&month=1&day=1&view=)
 
 ## 手順
 

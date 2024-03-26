@@ -15,6 +15,17 @@ const FeatureList = [
     img: 'img/java_icon.png',
   },
   {
+    title: 'Python',
+    // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.
+      </>
+    ),
+    link: '/eightbit-saurus/docs/Python/page1',
+    img: 'img/python_icon2.png',
+  },
+  {
     title: 'MySQL',
     // Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
