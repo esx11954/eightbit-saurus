@@ -1,8 +1,8 @@
 {
-  "label": "Java基礎",
+  "label": "基礎課題",
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "演習"
+    "description": "課題"
   }
 }

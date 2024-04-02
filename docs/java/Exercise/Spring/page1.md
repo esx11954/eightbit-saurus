@@ -66,4 +66,11 @@ sidebar_position: 0
 ## 3. accessing data mysql
 [公式ガイド(JPA で MySQL データアクセス)](https://spring.pleiades.io/guides/gs/accessing-data-mysql)
 
-
+:::caution
+#### 実行時に **ClassNotFoundException** が出る場合
+JDBCがロードされていないというエラー内容です  
+build.gradleのdependencyブロックに以下を追記し、`Refresh Gradle Project`をして下さい
+```java
+runtimeOnly 'com.mysql:mysql-connector-j'
+```
+:::
