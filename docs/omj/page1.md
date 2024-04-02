@@ -81,6 +81,6 @@ MVCモデルに準拠したプロジェクト構造やプロジェクトバー�
 また、プロジェクトのバージョン管理を行うため、Gitのインストール及びGithubアカウントの作成をしましょう  
 Gitの概要については以下にまとめています  
 
-[**Git資料**](/eightbit-saurus/docs/git/page1)
+[**Git資料**](/eightbit-saurus/docs/Git/page1)
 
 
