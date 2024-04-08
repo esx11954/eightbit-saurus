@@ -66,6 +66,55 @@ sidebar_position: 0
 ## 3. accessing data mysql
 [公式ガイド(JPA で MySQL データアクセス)](https://spring.pleiades.io/guides/gs/accessing-data-mysql)
 
+
+:::info
+本プロジェクトではデータベースを扱います  
+必要なデータベース及びユーザは以下のクエリを使用して下さい  
+```sql
+create database db_example;
+create user 'springuser'@'%' identified by 'ThePassword';
+grant all on db_example.* to 'springuser'@'%';
+```
+
+また、completeのコードをそのまま記述しても動かないので、以下を参考にして下さい  
+```java title="MainController.java" showLineNumbers
+@PostMapping(path="/add") // Map ONLY POST Requests
+public @ResponseBody String addNewUser (@RequestParam("name") String name
+        , @RequestParam("email") String email) {
+    // @ResponseBody means the returned String is the response, not a view name
+    // @RequestParam means it is a parameter from the GET or POST request
+
+    User n = new User();
+    n.setName(name);
+    n.setEmail(email);
+    userRepository.save(n);
+    return "Saved";
+}
+```
+
+```env title="application.properties" showLineNumbers
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/db_example
+spring.datasource.username=springuser
+spring.datasource.password=ThePassword
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+```
+
+```java title="build.gradle" showLineNumbers
+// 省略
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    runtimeOnly 'com.mysql:mysql-connector-j'
+}
+
+// 省略
+```
+
+## 注意事項
+
 :::caution
 #### 実行時に **ClassNotFoundException** が出る場合
 JDBCがロードされていないというエラー内容です  
@@ -74,3 +123,6 @@ build.gradleのdependencyブロックに以下を追記し、`Refresh Gradle Pro
 runtimeOnly 'com.mysql:mysql-connector-j'
 ```
 :::
+
+
+
