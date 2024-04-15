@@ -109,6 +109,8 @@ const config = {
             position: 'left',
             label: '基礎研修',
           },
+
+          
           // {
           //   type: 'docSidebar',
           //   sidebarId: 'mysqlSidebar',
