@@ -225,7 +225,7 @@ sidebar_position: 1
     </div>
 </details>
 
-16章(STPによる冗長構成)まで見たら、以下の課題に着手しましょう
+<!-- 16章(STPによる冗長構成)まで見たら、以下の課題に着手しましょう
 
 <details>
     <summary>【課題7】</summary>
@@ -241,7 +241,7 @@ sidebar_position: 1
 通信の転送速度に指定がありますので、注意しましょう(1000M)
 :::
     </div>
-</details>
+</details> -->
 
     </div>
 </details>
