@@ -105,6 +105,12 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'jsSidebar',
+            position: 'left',
+            label: 'JavaScript',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'foundationSidebar',
             position: 'left',
             label: '基礎研修',
