@@ -70,7 +70,7 @@ const config = {
   markdown: {
     mermaid: true,
   },
-  themes: ["@docusaurus/theme-mermaid"],
+  themes: ["@docusaurus/theme-mermaid", '@docusaurus/theme-live-codeblock'],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -205,8 +205,14 @@ const config = {
         additionalLanguages: ['java', 'powershell'],
       },
 
+      /* mermaid configs. */
       mermaid: {
         theme: {light: 'neutral', dark: 'dark'},
+      },
+
+      /* liveCodeBlock configs. */
+      liveCodeBlock: {
+        playgroundPosition: 'bottom',
       },
     }),
 };
