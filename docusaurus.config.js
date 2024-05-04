@@ -67,6 +67,11 @@ const config = {
     },
   ],
 
+  markdown: {
+    mermaid: true,
+  },
+  themes: ["@docusaurus/theme-mermaid", '@docusaurus/theme-live-codeblock'],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -102,6 +107,12 @@ const config = {
             sidebarId: 'pythonSidebar',
             position: 'left',
             label: 'Python',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'jsSidebar',
+            position: 'left',
+            label: 'JavaScript',
           },
           {
             type: 'docSidebar',
@@ -192,6 +203,16 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
         additionalLanguages: ['java', 'powershell'],
+      },
+
+      /* mermaid configs. */
+      mermaid: {
+        theme: {light: 'neutral', dark: 'dark'},
+      },
+
+      /* liveCodeBlock configs. */
+      liveCodeBlock: {
+        playgroundPosition: 'bottom',
       },
     }),
 };
