@@ -36,8 +36,8 @@ function btnAddClick(){
     const tdCorp = document.createElement('td');  // Corp列
 
     // tdの内容を設定
-    tdNo.innerText = '3';
-    tdCorp.innerText = 'Microsoft';
+    tdNo.textContent = '3';
+    tdCorp.textContent = 'Microsoft';
 
     // trに子ノードとして、tdを追加
     tr.appendChild(tdNo);
@@ -49,7 +49,7 @@ function btnAddClick(){
 
 ### jsファイルの読み込み
 作成した「js」ファイルは、そのままでは実行されません  
-CSSと同様に、htmlファイルへ読み込み処理を記述する必要があります  
+CSSと同様に、HTMLファイルへ読み込み処理を記述する必要があります  
 読み込み処理は以下のように記述します  
 ```html title=index.html
 <script src="{jsファイルのパス}"></script>
@@ -250,16 +250,16 @@ index.htmlを見ると、id属性に'btn-add'が指定されています
 <button id='btn-add'>追加</button>
 ```
 
-また、ノードの取得処理には後述のとおり複数種類がありますが  
+#### ノード取得処理の種類
+ノード取得処理には複数の種類があります  
 今回の場合はノードの __id属性__ をキーに目的のノードを取得しています
 
 ```js title="id属性をキーにしたノード取得"
 document.getElementById('ここにid属性の値')
 ```
 
-#### ノード取得処理の種類
-ノード取得処理には以下の種類があります  
-使い方などの詳細については、各リファレンスを参考にしてください
+その他の種類については、以下の通りです  
+各リファレンスも参考にしてください  
 | 取得処理 | キー |
 |:----:|:----:|
 | [document.getElementById](https://developer.mozilla.org/ja/docs/Web/API/Document/getElementById) | id属性 |
@@ -267,3 +267,187 @@ document.getElementById('ここにid属性の値')
 | [document.getElementsByName](https://developer.mozilla.org/ja/docs/Web/API/Document/getElementById) | name属性 |
 | [getElementsByTagName](https://developer.mozilla.org/ja/docs/Web/API/Document/getElementById) | タグ名 |
 
+
+#### 変数と定数
+今回、取得したノードオブジェクトを定数へ代入しています  
+```js title="取得したノードをbutton定数へ代入"
+const button = document.getElementById('btn-add');
+```
+
+JavaScriptでは、定数および変数を以下の様に宣言できます  
+
+```js title="定数: const"
+const 定数名 = 代入するオブジェクトや式;
+```
+
+```js title="変数: let"
+let 変数名 = 代入するオブジェクトや式;
+```
+
+:::tip
+変数と定数は宣言の方法は似ていますが明確な違いがあります  
+定数は、宣言した後に再度値を変更することができません  
+
+| 処理 | 値の変更 |
+|:----:|:----:|
+| const | × |
+| let | ○ |
+
+一度宣言し、その後は値を変更しないデータについては  
+無用な変更やバグを回避するため、基本的に定数で宣言するように心がけましょう  
+
+詳細については以下のリファレンスも参考にしてください
+- (Constant (定数) - MDN)[https://developer.mozilla.org/ja/docs/Glossary/Constant]
+- (const - MDN)[https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/const]
+- (必要な情報を保管する — 変数 - MDN)[https://developer.mozilla.org/ja/docs/Learn/JavaScript/First_steps/Variables]
+- (let - MDN)[https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/let]
+:::
+
+### 4. ノードの作成
+ここまでで、Webページ上の「追加」ボタンをクリックした時に、btnAddClick関数を実行することができます  
+
+btnAddClick関数では、以下の処理を記述しています
+1. 'tb-body'というid属性を持つ、tbodyノードを取得  
+2. trノード、tdノードを新規作成  
+3. tdノードに表示する内容を設定  
+5. trノードの子ノードとして、tdノードを設定  
+6. tbodyノードの子ノードとして、trノードを設定  
+
+``` js title="btnAddClick関数" showLineNumbers
+// 「追加」ボタンをクリックしたときのイベント
+function btnAddClick(){
+    // id属性が「tb-body」となっているノードを取得
+    const tbBody = document.getElementById('tb-body');
+    // trのノードを新規作成
+    const tr = document.createElement('tr');
+
+    // tdのノードを新規作成
+    const tdNo = document.createElement('td');    // No列
+    const tdCorp = document.createElement('td');  // Corp列
+
+    // tdの内容を設定
+    tdNo.textContent = '3';
+    tdCorp.textContent = 'Microsoft';
+
+    // trに子ノードとして、tdを追加
+    tr.appendChild(tdNo);
+    tr.appendChild(tdCorp);
+    // tbBodyに子ノードとして、trを追加
+    tbBody.appendChild(tr);
+}
+```
+
+#### ノード作成
+JavaScriptではノードの取得が可能なように、ノードを新規作成することができます  
+今回は、テーブルへ新規の行を追加するために、trノードとtdノードをそれぞれ新規作成しています  
+
+```js title="ノード作成" showLineNumbers
+// trのノードを新規作成
+const tr = document.createElement('tr');
+
+// tdのノードを新規作成
+const tdNo = document.createElement('td');    // No列
+const tdCorp = document.createElement('td');  // Corp列
+```
+
+ノードの新規作成処理は以下のように記述します  
+```js title="ノード作成"
+document.createElement('ここにノード名')
+```
+
+新規作成されたノードはHTMLに直すと以下のようなイメージです  
+まだ、何も設定されていない空のノードとなっています  
+```html title="htmlイメージ" showLineNumbers
+<!-- No列 -->
+<td></td>
+<!-- Corp列 -->
+<td></td>
+```
+
+### 5. ノードの設定
+新規作成したばかりの空ノードをテーブルへ追加していくために、ノードの設定を行う必要があります  
+今回は2つのtdノードにそれぞれ、「3」と「Microsoft」という文字列を表示するため、 ノードの __textContent__ プロパティを設定しています  
+
+```js title="ノード作成" showLineNumbers
+// tdの内容を設定
+tdNo.textContent = '3';
+tdCorp.textContent = 'Microsoft';
+```
+
+上記設定がされたとき、HTMLに直すと以下のようなイメージになります
+```html title="htmlイメージ" showLineNumbers
+<!-- No列 -->
+<td>3</td>
+<!-- Corp列 -->
+<td>Microsoft</td>
+```
+
+#### ノードの親子関係を設定①
+HTML上のテーブルの記述方法ではtd要素はtr要素の子要素である必要があります  
+ノードにおいても同様になるため、trノードとtdノードの親子関係を設定します  
+
+```js title="ノードの親子関係設定①" showLineNumbers
+// trに子ノードとして、tdを追加
+tr.appendChild(tdNo);
+tr.appendChild(tdCorp);
+```
+
+上記では、trノードの __appendChild__ メソッドを実行し、tdノードをそれぞれ子ノードとして設定しています  
+
+HTMLに直すと以下のようなイメージへ設定することができます  
+```html title="htmlイメージ" showLineNumbers
+<tr>
+    <td>3</td>
+    <td>Microsoft</td>
+</tr>
+```
+
+#### ノードの親子関係を設定②
+最後に、作成したtrノードをid属性が「tb-body」となっているtbodyノードの子ノードとして設定しています  
+
+```js title="ノードの親子関係設定②" showLineNumbers
+// tbBodyに子ノードとして、trを追加
+tbBody.appendChild(tr);
+```
+
+tbodyノードは、html上ではテーブルのBody要素「tbody」タグになっています  
+
+```html title="tbodyタグと子要素" showLineNumbers
+<tbody id="tb-body">
+    <tr>
+        <td>1</td>
+        <td>Google</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Apple</td>
+    </tr>
+</tbody>
+```
+
+tbodyノードへtrノードを追加することで、HTMLに直すと以下のようなイメージへ書き換えることができます  
+
+```html {10-13} title="htmlイメージ" showLineNumbers
+<tbody id="tb-body">
+    <tr>
+        <td>1</td>
+        <td>Google</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Apple</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Microsoft</td>
+    </tr>
+</tbody>
+```
+
+ノードの設定については以下のリファレンスを参考にしましょう  
+- (ノード - MDN)[https://developer.mozilla.org/ja/docs/Web/API/Node]
+- (textContent - MDN)[https://developer.mozilla.org/ja/docs/Web/API/Node/textContent]
+- (appendChild)[https://developer.mozilla.org/ja/docs/Web/API/Node/appendChild]
+
+
+以上で、基礎的なDOM操作とコードの解説は終了です  
