@@ -20,7 +20,7 @@ window.addEventListener('load', loadEvent);
 function loadEvent(){
     // id属性が「btn_add」となっているノードを取得
     const button = document.getElementById('btn-add');
-    // ノードをクリックした時に、「btnAddClick」関数を呼び出すイベントを設定する
+    // ノードをクリックした時に、「btnAddClick」関数を呼び出すイベントリスナーを設定する
     button.setAttribute('onclick', 'btnAddClick()');
 }
 
@@ -111,7 +111,7 @@ window.addEventListener('load', loadEvent);
 function loadEvent(){
     // id属性が「btn_add」となっているノードを取得
     const button = document.getElementById('btn-add');
-    // ノードをクリックした時に、「btnAddClick」関数を呼び出すイベントを設定する
+    // ノードをクリックした時に、「btnAddClick」関数を呼び出すイベントリスナーを設定する
     button.addEventListener('click', btnAddClick);
 }
 ```
@@ -237,29 +237,31 @@ loadEvent関数内では、以下の処理を記述しています
 function loadEvent(){
     // id属性が「btn_add」となっているノードを取得
     const button = document.getElementById('btn-add');
-    // ノードをクリックした時に、「btnAddClick」関数を呼び出すイベントを設定する
+    // ノードをクリックした時に、「btnAddClick」関数を呼び出すイベントリスナーを設定する
     button.addEventListener('click', btnAddClick);
 }
 ```
 
 ノードの取得を行うことで、目的のノードをオブジェクトとして取得することができます  
+ノードオブジェクトを利用することで、ノードへのイベントリスナー登録や、表示項目の設定などを行うことができます  
 
-今回の場合、取得されているのはbuttonノードです  
-index.htmlを見ると、id属性に'btn-add'が指定されています  
+#### ノード取得処理の種類
+今回の場合、取得されているのはbuttonノードオブジェクトです  
+ノード取得処理では、__id属性__ をキーにbuttonノードオブジェクトを取得しています  
+
+index.htmlを確認すると、id属性に'btn-add'が指定されていることがわかります  
 ```html title="index.html"
 <button id='btn-add'>追加</button>
 ```
 
-#### ノード取得処理の種類
-ノード取得処理には複数の種類があります  
-今回の場合はノードの __id属性__ をキーに目的のノードを取得しています
+id属性をキーにしたノード取得処理の記述方法は以下のとおりです  
 
 ```js title="id属性をキーにしたノード取得"
 document.getElementById('ここにid属性の値')
 ```
 
-その他の種類については、以下の通りです  
-各リファレンスも参考にしてください  
+これ以外にも、いくつかのノード取得処理があります  
+以下の各リファレンスも参考にしてください  
 | 取得処理 | キー |
 |:----:|:----:|
 | [document.getElementById](https://developer.mozilla.org/ja/docs/Web/API/Document/getElementById) | id属性 |
@@ -288,12 +290,13 @@ let 変数名 = 代入するオブジェクトや式;
 変数と定数は宣言の方法は似ていますが明確な違いがあります  
 定数は、宣言した後に再度値を変更することができません  
 
-| 処理 | 値の変更 |
-|:----:|:----:|
-| const | × |
-| let | ○ |
+| 処理 | 値の変更 | 再宣言 | スコープ | 備考 |
+|:----:|:----:|:----:|:----:|:----:|
+| const | × | × | ブロック | - |
+| let | ○ | × | ブロック | - |
+| var | ○ | ○ | 関数 | 一般的に __非推奨__ |
 
-一度宣言し、その後は値を変更しないデータについては  
+一度宣言し、その後は値を変更しない場合は  
 無用な変更やバグを回避するため、基本的に定数で宣言するように心がけましょう  
 
 詳細については以下のリファレンスも参考にしてください
@@ -355,8 +358,8 @@ const tdCorp = document.createElement('td');  // Corp列
 document.createElement('ここにノード名')
 ```
 
-新規作成されたノードはHTMLに直すと以下のようなイメージです  
-まだ、何も設定されていない空のノードとなっています  
+新規作成されたノードは、何も設定されていない空のノードとなっています  
+HTMLに直すと以下のようなイメージです  
 ```html title="htmlイメージ" showLineNumbers
 <!-- No列 -->
 <td></td>
