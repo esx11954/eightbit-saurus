@@ -130,7 +130,7 @@ Pythonなど作成したアプリケーションの動作に必要なソフト�
 
 4. ダウンロードしたtar.gzファイルを解凍する
 
-5. 解凍したディレクトリ内の```configure```ファイル実行する
+5. 解凍したディレクトリ内の```configure```ファイルを実行する
 
 6. ソースファイルをコンパイルする
 
@@ -239,7 +239,7 @@ PostgreSQLのインストール先ディレクトリ内の **bin** ディレク�
 ```
 
 ### 仮想環境(venv)
-以下を参考に、Djangoプロジェクトへ ```venv``` を利用した仮想環境を構築してください  
+Djangoプロジェクトへ ```venv``` を利用した仮想環境を構築してください  
 また、構築した仮想環境には以下のライブラリをインストールしましょう  
 
 - django
@@ -254,7 +254,7 @@ PostgreSQLのインストール先ディレクトリ内の **bin** ディレク�
 以下の手順を実施し、Djangoアプリケーションで使用する環境変数を設定してください  
 
 1. 以下のファイルを作成し、環境変数を記述する  
-以下は記述例です。実際の内容は、Djangoアプリケーションで使用するものを各自で設定してください  
+実際の内容は、Djangoアプリケーションで使用するものを各自で設定してください  
 ```bash title="/etc/nginx/.env_profile"
 export DB_USER=[DBユーザー名]
 export DB_PASSWORD=[パスワード]
@@ -270,13 +270,13 @@ sourceコマンドを記述し、作成した ```.env_profile``` ファイルを
 3. ```.bash_profile``` ファイルを反映させる
 
 ### uWSGI
-uWSGIは、Pythonを実行可能な **Webアプリケーションサーバー** を提供するソフトウェアです  
+uWSGIは、Pythonなど様々な言語に対応した **Webアプリケーションサーバー** を提供するソフトウェアです  
 通常はnginxやApacheといった **Webサーバー** と連携することで、Webアプリケーションをユーザーへ公開します  
 
 この連携は、前述した **リバースプロキシサーバー** を利用することで実現することができます  
 リバースプロキシサーバー自体の詳細な解説は省きます  
 
-今回の場合、nginxはリバースプロキシサーバーとして振る舞いつつ、Webサーバーとして自身で静的なコンテンツをレスポンスさせます  
+今回の場合、nginxにはリバースプロキシサーバーとして振る舞いつつ、Webサーバーとして自身で静的なコンテンツをレスポンスさせます  
 それ以外の動的コンテンツについては、uWSGIへリクエストを連携し、uWSGIの処理結果をユーザー(クライアント)へレスポンスするよう設定します  
 
 ![reverseProxyServer](./images/deploy_2.png)
@@ -324,11 +324,11 @@ uid = nginx
 gid = nginx
 
 # Djangoアプリのルートを指定
-# (Djangoのプロジェクト名が「mysite」の場合は「/var/www/mysite/mysite/」配下のwsgi.pyを参照させる)
+# (Djangoのプロジェクト名が「testsite」の場合は「/var/www/testsite/testsite/」を参照させる)
 chdir = {Djangoアプリのルート}
 
 # wsgi.pyの場所を指定する
-# (Djangoのプロジェクト名が「mysite」の場合は「/var/www/mysite/mysite/」配下のwsgi.pyを参照させる)
+# (Djangoのプロジェクト名が「testsite」の場合は「/var/www/testsite/testsite/」配下のwsgi.pyを参照させる)
 module = {wsgi.pyの場所}.wsgi
 
 # 仮想環境の場所を指定する
@@ -349,7 +349,7 @@ thunder-lock = true
 max-requests = 6000
 max-requests-delta = 300
 
-# ログディレクトリの作成先を指定
+# ログファイルの作成先を指定
 logto = /var/log/uwsgi/uwsgi.log
 deamonize = /var/log/uwsgi/uwsgi-@(exec://date +%Y-%m-%d).log
 log-reopen = true
@@ -383,7 +383,7 @@ NotifyAccess=all
 WantedBy=multi-user.target
 ```
 
-4. 作成したuWSGIのサービスの自動起動を有効化し、起動する
+4. 作成したuWSGIのサービスを有効化し、起動する
 
 
 <h4>nginx側の設定</h4>
