@@ -10,6 +10,7 @@ sidebar_position: 5
 - 画像スライダーを追加  
   - 5秒ごとに次の画像へ自動スライド  
   - [次]と[前]のボタンで手動のスライドが可能
+  - 表示する画像は[こちらのリンク](./files/js-practice-image.zip)からダウンロード
 
 ![slider1](./images/slider.gif)  
 
