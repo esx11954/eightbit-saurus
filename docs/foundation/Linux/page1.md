@@ -16,7 +16,7 @@ sidebar_position: 1
 
 ※実行する必要はありません
 
-[CentOSイメージファイル](http://ftp.iij.ad.jp/pub/linux/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-DVD-2207-02.iso)
+[CentOSイメージファイル](//ftp.iij.ad.jp/pub/linux/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-DVD-2207-02.iso)
 
 
 ### 2. VirtualBox
