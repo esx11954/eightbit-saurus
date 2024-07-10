@@ -48,7 +48,7 @@ DNSサーバは作成したものを使いまわして構いません
 
 接続URL  
 http://**IPアドレス**
-![tomcat](./img/tomcat0.png)
+![tomcat](./img/centos9/centos9_tomcat10.png)
 
 ## アプリケーションの初期画面
 接続URL  
