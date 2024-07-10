@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
-# Linux追加課題 CentOS7
+# Linux追加課題 CentOS9
 
 Javaのアプリケーションを利用するためのアプリケーションサーバを構築して下さい  
 
@@ -12,8 +12,8 @@ Javaのアプリケーションを利用するためのアプリケーション�
 |ソフトウェア|バージョン指定|
 |--|--|
 |Amazon Corretto |17|
-|tomcat|9|
-|MySQL |8.0|
+|tomcat|10|
+|MySQL |8.4以上|
 
 :::tip
 ## 進め方
@@ -52,5 +52,5 @@ http://**IPアドレス**
 
 ## アプリケーションの初期画面
 接続URL  
-http://**ドメイン**/calApp/Login
-![tomcat](./img/tomcat1.png)
+http://**ドメイン**/demo
+![tomcat](./img/centos9/centos9_deploy_demo.png)
