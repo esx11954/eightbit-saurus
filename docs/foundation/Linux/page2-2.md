@@ -34,8 +34,8 @@ Javaのアプリケーションを利用するためのアプリケーション�
 
 #### 必要リソース
 以下をダウンロードして使用して下さい
-- [DB作成クエリ](./files/calApp.sql)
-- [warファイル](./files/calApp.war)
+- [DB作成クエリ](./files/jpa.sql)
+- [warファイル](./files/demo.war)
 
 
 
