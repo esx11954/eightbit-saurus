@@ -151,7 +151,7 @@ DHCPサーバには静的IPアドレスが設定されている必要があり�
 
 </div>
 </details>
-<!-- 
+
 <details>
     <summary>3. クライアントPCの設定</summary>
     <div>
@@ -159,8 +159,20 @@ DHCPサーバには静的IPアドレスが設定されている必要があり�
 クライアントPCがDHCPサーバからネットワーク情報の割当てを受けるためには設定を行う必要があります  
 
 #### DHCP設定手順
+1. **サーバーマネージャー** を開き、画面左の `ローカルサーバー` > `イーサネット`項目の **リンク** の順でクリック
+![dhcp](./img/dhcp_setting1.png)
 
+2. `イーサネット`を右クリックし、`プロパティ` をクリック
+![dhcp](./img/dhcp_setting2.png)
 
+3. `インターネット プロトコル バージョン4(TCP/IPv4)` を選択し、 `プロパティ` をクリック
+![dhcp](./img/dhcp_setting3.png)
+
+4. `IPアドレスを自動的に選択する(O)`を選択し、`OK` をクリック
+![dhcp](./img/dhcp_setting4.png)
+
+5. `閉じる` をクリック
+![dhcp](./img/dhcp_setting5.png)
 
 #### ServerCore の場合
 以下のコマンドを実行して、IPv4を `DHCP` に設定します  
@@ -171,9 +183,9 @@ netsh interface ipv4 set dnsservers name="<ID>" source=dhcp
 
 `<ID>` はクライアントPCと接続しているネットワークアダプターのIDに置き換えましょう  
 
-    </div>
+</div>
 </details> 
--->
+
 
 ------------------
 
