@@ -33,7 +33,7 @@ System.out.println(sum);
 
 #### 実行結果
 ```
-20
+30
 ```
 
 ```java showLineNumbers 
