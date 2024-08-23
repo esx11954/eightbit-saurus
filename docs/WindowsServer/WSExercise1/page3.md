@@ -10,7 +10,7 @@ sidebar_position: 3
 ## 前提
 以下の仮想マシン(WindowsServer)を用意してください  
 
-- [課題1](./page1) で作成したWindowsServer(以下、ADサーバ)
+- [課題1](../page1) で作成したWindowsServer(以下、ADサーバ)
 - WindowsServer 2022をインストールした **ファイルサーバ用の仮想マシン** (以下、ファイルサーバ)
     - サーバ(コンピュータ)名: `FileServer01`
     - 構成: ファイルサーバの役割
