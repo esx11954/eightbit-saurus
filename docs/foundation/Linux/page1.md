@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-hide: true
+draft: true
 ---
 
 # Linux基礎 CentOS7

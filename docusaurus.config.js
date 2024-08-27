@@ -56,6 +56,7 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+
       }),
     ],
   ],
@@ -71,7 +72,11 @@ const config = {
     mermaid: true,
   },
   themes: ["@docusaurus/theme-mermaid", '@docusaurus/theme-live-codeblock'],
-
+plugins: [
+      // Using three docs plugins at the same time!
+      // Assigning a unique ID for each without asking the user to do it
+      // ['@docusaurus/plugin-content-docs', {id: 'docs1', path: '/docs'}],
+    ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
