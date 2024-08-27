@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+hide: true
 ---
 
 # Linux追加課題 CentOS7

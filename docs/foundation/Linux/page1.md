@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+hide: true
 ---
 
 # Linux基礎 CentOS7
