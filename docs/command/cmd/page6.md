@@ -47,9 +47,11 @@ for {オプション} %%{変数名} in ({繰り返し対象}) do(
 - 繰り返し対象: `*.txt`
 
 ```powershell title="カレントディレクトリ配下の「.txt」ファイル名を表示します"
+@echo off
 for %%f in (*.txt) do (
     echo %%f
 )
+pause
 ```
 
 :::tip
