@@ -91,6 +91,6 @@ type sample.txt
 
 指定された文字列やコマンドの結果を出力します  
 
-```powershell title="カレントディレクトリ配下の「dummy.txt」の内容を表示します"
+```powershell title="「こんにちわ」と表示します"
 echo "こんにちわ"
 ```
