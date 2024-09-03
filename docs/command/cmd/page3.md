@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 演習①
+# 演習 基本コマンド 
 
 各問で使用するコマンドは1つではありません  
 学習したコマンドを組み合わせ、条件を満たしましょう  
@@ -30,7 +30,7 @@ Hello World
 
 ## 問4
 
-パス: `C:\WorkSpace\sample.txt` を `relative`ディレクトリへ   
+パス: `C:\WorkSpace\cmd.txt` を `relative`ディレクトリへ   
 `re_dummy.txt` というファイル名で **移動** し、ファイルの内容を表示してください  
 
 ## 問5

@@ -2,14 +2,14 @@
 sidebar_position: 6
 ---
 
-# 課題②
+# 課題② 制御コマンド
 
 ## 課題1
 パス `C:\Windows\` に存在する各「.exe」ファイルの名前を、 `File: {名前}` といった形式で  
 パス `C:\WorkSpace\memo\Exes.txt` へ全て出力するバッチを作成してください  
 
 ## 課題2
-1から30までの偶数を全て出力してください
+0から30までの偶数を全て出力するバッチを作成してください  
 
 ## 課題3
 変数numA と 変数numB へ任意の値を代入し  
@@ -31,17 +31,12 @@ numBよりnumAの方が大きい
 
 ## 追加課題
 <details>
-    <summary>Open</summary>
+    <summary>追加課題1</summary>
     <div>
-
-## 追加課題1
 
 以下の条件を満たすバッチを作成してください
 
-パス `%SystemRoot%\System32\Winevt\Logs\` に存在する
-    - 拡張子が「.evtx」
-
-のファイルを対象とします。
+パス `%SystemRoot%\System32\Winevt\Logs\` に存在する、拡張子が `.evtx` のファイルを対象とします。
 
 対象ファイル名が
     - Application

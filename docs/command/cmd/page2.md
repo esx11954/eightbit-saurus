@@ -12,8 +12,9 @@ sidebar_position: 1
 
 ```powershell
 mkdir C:\WorkSpace
-echo "This is dummy text." > sample.txt
-echo "command prompt" > cmd.txt
+cd C:\WorkSpace
+echo "This is dummy text." > C:\WorkSpace\sample.txt
+echo "command prompt" > C:\WorkSpace\cmd.txt
 ```
 
 上記で作成した **「WorkSpace」ディレクトリ** を **カレントディレクトリに指定** しましょう
@@ -79,6 +80,8 @@ copy .\sample.txt .\relative\dummy.txt
 move .\relative .\absolute
 ```
 
+<br />
+
 # type
 
 指定されたファイルの内容を表示します  
@@ -86,6 +89,8 @@ move .\relative .\absolute
 ```powershell title="カレントディレクトリ配下の「dummy.txt」の内容を表示します"
 type sample.txt
 ```
+
+<br />
 
 # echo
 
