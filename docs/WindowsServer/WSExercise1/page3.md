@@ -23,7 +23,7 @@ sidebar_position: 3
    共有フォルダは [こちら](../file/XX_ファイルサーバ_環境定義書_課題3.xlsx) の環境定義書の通りに作成してください
 
 ### 課題3-2
-   ADサーバへ `CompanyData` という名前のDFS名前空間を作成し  
+   **ADサーバ** へ `CompanyData` という名前のDFS名前空間を作成し  
    [こちら](../file/XX_ActicveDirectoryサーバ_環境定義書_課題3.xlsx) の定義書の通りに **共有フォルダ** と **DFSリンク** を作成してください
 
 ### 課題3-3
