@@ -438,7 +438,7 @@ BIND(**named-chroot**)をインストールしてDNSサーバを構築して下�
 #### 必須設定
 - **selinux**無効化
 - **firewall**でdnsを許可
-- zoneファイル作成 & 権限変更
+- zoneファイル作成 & 所有者変更
 - named.conf の編集
 - resolv.conf の編集(ローカル環境における名前解決確認時に設定が必要です)
 :::
