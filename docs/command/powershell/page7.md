@@ -34,19 +34,33 @@ numBよりnumAの方が大きい
     <summary>追加課題1</summary>
     <div>
 
-以下の条件を満たすスクリプトを作成してください
+    以下の条件を満たすスクリプトを作成してください
 
-パス `%SystemRoot%\System32\Winevt\Logs\` に存在する、拡張子が `.evtx` のファイルを対象とします。
+    パス `%SystemRoot%\System32\Winevt\Logs\` に存在する、拡張子が `.evtx` のファイルを対象とします。
 
-対象ファイル名が
-    - Application
-    - System
-    - Setup
-    - Security
+    対象ファイル名が
+        - Application
+        - System
+        - Setup
+        - Security
 
-の場合は、 `C:\WorkSpace_PS\Logs\PC\` へコピーしてください  
+    の場合は、 `C:\WorkSpace_PS\Logs\PC\` へコピーしてください  
 
-それ以外のファイルは `C:\WorkSpace_PS\Logs\etc\` へコピーしてください
+    それ以外のファイルは `C:\WorkSpace_PS\Logs\etc\` へコピーしてください
+
+    </div>
+</details>
+
+<details>
+    <summary>追加課題2</summary>
+    <div>
+
+    以下の条件を満たす **スクリプトを作成** してください
+
+    - 追加課題1で作成した `C:\WorkSpace_PS\Logs\` を `C:\WorkSpace_PS\Backup\Logs` へ差分コピーする
+    - 差分コピー処理後は拡張子が `.evtx` のファイルを `C:\WorkSpace_PS\Logs\` 配下から 全て削除する
+    - `C:\Windows\Logs` を `C:\WorkSpace_PS\Backup\SystemLogs` へミラーリングする
+    - 処理にあたり、必要なディレクトリが存在しない場合は作成処理を実施する
 
     </div>
 </details>

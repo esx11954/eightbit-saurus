@@ -58,7 +58,7 @@ mkdir C:\WorkSpace\absolute
 
 # copy
 
-指定されたファイルを、 **コピー先パス** へコピーできます  
+指定された *ファイル* を、 **コピー先パス** へコピーできます  
 
 ```powershell title="「sample.txt」ファイルを「relative」ディレクトリ配下へコピーします"
 copy .\sample.txt .\relative

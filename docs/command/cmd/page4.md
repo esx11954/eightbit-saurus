@@ -17,7 +17,7 @@ sidebar_position: 3
 @echo off
 cd C:\WorkSpace
 dir
-type example.txt
+type sample.txt
 pause
 ```
 

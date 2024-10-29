@@ -9,10 +9,11 @@ sidebar_position: 6
  - [課題1](../page1) で作成したAD用のWindowsServer(以下、ADサーバ)
 
 2. ​上記サーバへ以下のソフトウェアをインストールしてください
-   - .NET Core ホスティング バンドル
+   - [.NET Core ホスティング バンドル](https://learn.microsoft.com/ja-jp/aspnet/core/host-and-deploy/iis/hosting-bundle)
 
 :::tip
-`.NET Core ホスティング バンドル` はIIS上で **ASP.NET Core** で開発されたWebアプリケーションを動作させる *ランタイム* です
+`.NET Core ホスティング バンドル` はIIS上で **ASP.NET Core** で開発されたWebアプリケーションを動作させる *ランタイム* です  
+インストールに関して不明点がある場合は、講師へ連絡しましょう
 :::
 
 -----
@@ -41,4 +42,4 @@ ADサーバへ以下のようにDNSを構成し、IISでWebページを公開し
 | サイト名 | WebApp           |
 | ホスト名 | www.webapp.local |
 | 資材   | ＜[こちら](../file/WebSampleProject.zip) を指定＞        |
-| ポート  | 8080             |
+| ポート  | 80             |
