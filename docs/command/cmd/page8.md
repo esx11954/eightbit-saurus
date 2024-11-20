@@ -46,7 +46,13 @@ numBよりnumAの方が大きい
 
     の場合は、 `C:\WorkSpace\Logs\PC\` へコピーしてください  
 
-    それ以外のファイルは `C:\WorkSpace\Logs\etc\` へコピーしてください
+    それ以外のファイルは `C:\WorkSpace\Logs\etc\` へコピーしてください  
+
+:::note
+`%SystemRoot%` のような記述を環境変数と呼びます。  
+ただしPowerShellでは `%SystemRoot%` と記述しても環境変数として利用できません  
+代わりに `$Env:SystemRoot` のように置き換えて記述します。
+:::
 
     </div>
 </details>

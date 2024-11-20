@@ -10,24 +10,50 @@ sidebar_position: 3
 ## 作成
 
 バッチには、コマンドを組み合わせて一連の処理を記述することができます  
-実際に作成してみましょう  
+以下の手順と画像のハイライトに従い、実際に作成してみましょう  
+
+<details>
+    <summary>作成手順</summary>
+    <div>
+
+1. Mery(もしくはVSCode等のテキストエディタ) を開き、以下のコマンド群をコピーペーストします  
+
+    ```batch title="exam.bat"
+    @echo off
+    cd C:\WorkSpace
+    dir
+    type sample.txt
+    pause
+    ```
+
+2. メニューから **ファイル** → **名前を付けて保存** を選択し、以下の通りにファイルを保存します  
+
+    - 保存先: `C:\WorkSpace\`
+    - ファイル名: `exam.bat`
+    - エンコード: `日本語(シフトJIS)`
+
+    ![cmd](./images/cmd12.png)
+    ![cmd](./images/cmd13.png)
 
 
-```powershell title="「C:\WorkSpace\」へ以下の内容のファイル「test.bat」を作成します"
-@echo off
-cd C:\WorkSpace
-dir
-type sample.txt
-pause
-```
+    :::tip
+    エンコードは、ファイルで使用する **文字コード** の対応表を指します  
+    コマンドプロンプトで使用されるデフォルトの文字コードは `Shift-JIS(シフトJIS)` であるため  
+    バッチファイルのエンコードも `Shift-JIS` を指定する必要があります  
+    :::
 
-上記のバッチをエクスプローラー上からダブルクリックすることで
+3. コマンドプロンプトにてバッチファイルのパスを指定することで、実行することができます  
 
-    1. 指定したフォルダに移動
-    2. ファイルのリストを表示
-    3. 任意のテキストファイルを開く
+    ```batch title="「C:\WorkSpace\」に移動して exam.bat を実行する"
+    cd C:\WorkSpace\
+    exam.bat
+    ```
 
-といった処理が実行されます  
+    ![cmd](./images/cmd15.png)
+
+
+</div>
+</details>
 
 ## 特殊コマンド
 
@@ -38,7 +64,7 @@ pause
 コマンドの後に `>` を利用することで、指定したファイルへ **コマンドの結果を出力** することできます  
 ファイルが存在しない場合は、ファイルが新規作成されます  
 
-```powershell title="例"
+```batch title="例"
 
 echo "リダイレクトします" > redirect.txt
 
@@ -56,7 +82,7 @@ echo "リダイレクトします" > redirect.txt
 通常、バッチの処理が全て完了すると自動でコマンドプロンプト画面が終了されますが  
 処理の最後で `pause` を記述することでコマンドプロンプト画面は閉じず、待機することができます  
 
-```powershell title="例"
+```batch title="例"
 
 echo "バッチを実行しました"
 pause
@@ -67,7 +93,7 @@ pause
 
 バッチ内でコマンドが実行される場合、コマンドプロンプト上にはコマンド入力行が表示されます  
 
-```powershell title="例"
+```batch title="例"
 dir
 echo "バッチを実行しました"
 pause
@@ -80,7 +106,7 @@ C:\WorkSpace>echo "バッチを実行しました"
 
 バッチの冒頭に `@echo off` を記述することで、コマンド入力行を非表示にできます  
 
-```powershell title="例2"
+```batch title="例2"
 @echo off
 echo "バッチを実行しました"
 pause

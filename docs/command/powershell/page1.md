@@ -39,7 +39,7 @@ PowerShellを実際に起動してみましょう
 まずは、実際に簡単なコマンドレットを実行しましょう  
 PowerShellへ以下のコマンドを打ち込み、 `Enterキー` で実行します  
 
-```shell title="cdコマンド"
+```powershell title="cdコマンド"
 Set-Location C:\
 ```
 

@@ -12,11 +12,11 @@ sidebar_position: 6
 `robocopy` コマンドとは、`xcopy` コマンド に様々な機能を追加した強化版のようなコマンドです  
 複雑な条件のコピーや、特殊なコピーを実施することができます  
 
-以下の例では、`copy`コマンド と同様に単純なコピーを実施することができます。
-ただし既に同名のファイルが存在する場合、**＜コピー先＞ よりも ＜コピー元＞ の最終更新日時が新しい** 場合に限り、上書きコピーが実施されます。
+以下の例では、`copy`コマンド と同様に単純なコピーを実施することができます。  
+ただし既に同名のファイルが存在する場合、**＜コピー先＞ よりも ＜コピー元＞ の最終更新日時が新しい** 場合に限り、上書きコピーが実施されます。  
 差分のみをコピーすることから **差分コピー** とも呼び、記録媒体(HDDやSSD)の差分バックアップに利用されます  
 
-```powershell title="例"
+```batch title="例"
 echo [1] 「absolute」ディレクトリを「absolute_copy」ディレクトリへrobocopyする
 robocopy C:\workspace\absolute C:\workspace\absolute_copy /E
 
@@ -76,7 +76,7 @@ robocopy C:\workspace\absolute C:\workspace\absolute_copy /E
 ＜コピー元＞と＜コピー先＞のファイルやディレクトリをミラーリング(同期)させることができます  
 つまり＜コピー元＞からファイルが削除されている場合は、＜コピー先＞からもこのファイルは削除されます  
 
-```powershell title="「absolute」ディレクトリを「absolute_copy」ディレクトリへミラーリングする"
+```batch title="「absolute」ディレクトリを「absolute_copy」ディレクトリへミラーリングする"
 robocopy C:\workspace\absolute C:\workspace\absolute_copy /E /MIR
 ```
 

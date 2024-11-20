@@ -207,7 +207,7 @@ plugins: [
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-        additionalLanguages: ['java', 'powershell'],
+        additionalLanguages: ['java', 'powershell', 'batch'],
       },
 
       /* mermaid configs. */

@@ -26,7 +26,7 @@ sidebar_position: 0
 まずは、実際に簡単なコマンドを実行しましょう  
 コマンドプロンプトへ以下のコマンドを打ち込み、 `Enterキー` で実行します  
 
-```shell title="cdコマンド"
+```batch title="cdコマンド"
 cd C:\
 ```
 

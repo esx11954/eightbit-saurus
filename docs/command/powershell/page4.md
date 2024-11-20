@@ -21,23 +21,48 @@ Set-ExecutionPolicy RemoteSigned
 ## 作成
 
 スクリプトには、コマンドレットを組み合わせて一連の処理を記述することができます  
-実際に作成してみましょう  
+以下の手順と画像のハイライトに従い、実際に作成してみましょう  
+
+<details>
+    <summary>作成手順</summary>
+    <div>
+
+1. Mery(もしくはVSCode等のテキストエディタ) を開き、以下のコマンド群をコピーペーストします  
+
+    ```powershell title="exam.ps1"
+    Set-Location C:\WorkSpace_PS
+    Get-ChildItem
+    Get-Content sample.txt
+    Read-Host
+    ```
+
+2. メニューから **ファイル** → **名前を付けて保存** を選択し、以下の通りにファイルを保存します  
+
+    - 保存先: `C:\WorkSpace_PS\`
+    - ファイル名: `exam.ps1`
+    - エンコード: `日本語(シフトJIS)`
+
+    ![powershell](./images/ps4.png)
+    ![powershell](./images/ps5.png)
 
 
-```powershell title="「C:\WorkSpace_PS\」へ以下の内容のファイル「test.bat」を作成します"
-Set-Location C:\WorkSpace_PS
-Get-ChildItem
-Get-Content sample.txt
-Read-Host
-```
+    :::tip
+    エンコードは、ファイルで使用する **文字コード** の対応表を指します  
+    PowerShellで使用されるデフォルトの文字コードは `Shift-JIS(シフトJIS)` であるため  
+    スクリプトファイルのエンコードも `Shift-JIS` を指定する必要があります  
+    :::
 
-上記のスクリプトをエクスプローラー上から右クリック > `PowerShellで実行` をクリック
+3. PowerShellにてスクリプトファイルのパスを指定することで、実行することができます  
 
-    1. 指定したフォルダに移動
-    2. ファイルのリストを表示
-    3. 任意のテキストファイルを開く
+    ```powershell title="「C:\WorkSpace\」に移動して exam.ps1 を実行する"
+    cd C:\WorkSpace\
+    .\exam.ps1
+    ```
 
-といった処理が実行されます  
+    ![powershell](./images/ps6.png)
+
+</div>
+</details>
 
 ### Read-Host
 
