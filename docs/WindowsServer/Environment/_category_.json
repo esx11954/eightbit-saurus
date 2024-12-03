@@ -1,0 +1,8 @@
+{
+  "label": "環境構築",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "WindowsServerとクライアントの環境構築"
+  }
+}
