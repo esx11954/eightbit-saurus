@@ -12,8 +12,11 @@ sidebar_position: 2
     <div>
 ### 1. 仮想マシン作成
 
-[Windowsの構築](http://localhost:3000/eightbit-saurus/docs/Windows/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/page1#windowsos%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB) でダウンロードした **WindowsOSイメージファイル** を使用して
+<!-- [Windowsの構築](http://localhost:3000/eightbit-saurus/docs/Windows/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/page1#windowsos%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB) でダウンロードした **WindowsOSイメージファイル** を使用して -->
+[**こちら**](https://go.microsoft.com/fwlink/?linkid=2288286&clcid=0x411&culture=ja-jp&country=jp)からWindowsOSイメージファイルをダウンロードし、
 以下の仮想マシンを作成しましょう  
+
+
 
 #### 仮想マシン作成画面
 - 仮想マシン概要
