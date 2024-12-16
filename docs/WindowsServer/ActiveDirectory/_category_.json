@@ -1,0 +1,8 @@
+{
+  "label": "ActiveDirectory",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "WindowsServer 基礎課題"
+  }
+}

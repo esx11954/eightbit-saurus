@@ -57,3 +57,7 @@ iframe.youtube-16-9 {
   display: block;
   margin: auto;
   }
+
+.hidden {
+  display: none !important;
+}
