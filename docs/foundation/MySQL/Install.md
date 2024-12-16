@@ -13,7 +13,7 @@ sidebar_position: 1
 
 
 
-ページ遷移したら ``Select Version``を 最新バージョン(8.x.x)に変更し  
+ページ遷移したら ``Select Version``を 最新バージョン(**LTS**と付くものが好ましい)に変更し  
 **Windows (x86, 64-bit), MSI Installer** をダウンロードして下さい
 
 

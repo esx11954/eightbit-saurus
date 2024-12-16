@@ -19,7 +19,7 @@ sidebar_position: 1
 ネットワーク情報の **概要** を表示します  
 
 ```batch title="TCP/IP の設定概要を確認する"
-ping ipconfig
+ipconfig
 ```
 
 ### 演習1-2. TCP/IP の設定を全て確認する
@@ -27,7 +27,7 @@ ping ipconfig
 ネットワーク情報を全て表示します  
 
 ```batch title="オプション /all を付加してTCP/IP の設定を全て確認する"
-ping ipconfig /all
+ipconfig /all
 ```
 
 ## ping
