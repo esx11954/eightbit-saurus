@@ -9,7 +9,7 @@ sidebar_position: 6
  - [課題1](../page1) で作成したAD用のWindowsServer(以下、ADサーバ)
 
 2. ​上記サーバへ以下のソフトウェアをインストールしてください
-   - [.NET Core ホスティング バンドル](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-9.0.0-windows-hosting-bundle-installer)
+   - [.NET Core ホスティング バンドル](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-8.0.11-windows-hosting-bundle-installer)
 
 :::tip
 `.NET Core ホスティング バンドル` はIIS上で **ASP.NET Core** で開発されたWebアプリケーションを動作させる *ランタイム* です  
