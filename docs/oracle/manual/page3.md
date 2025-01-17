@@ -101,7 +101,9 @@ $ lsnrctl start
 $ lsnrctl status | grep pdb
 ```
 
-上記が完了したら以下のコマンドで作成したPDBに、ローカル管理ユーザで接続してみましょう。
+上記が完了したら  
+以下のコマンドでローカル管理ユーザで作成したPDBに接続し、表領域の権限を付与しましょう。
 ```
 $ sqlplus mypdb_admin/mypdb_admin@mypdb 
+$ GRANT UNLIMITED TABLESPACE TO mypdb_admin;
 ```
