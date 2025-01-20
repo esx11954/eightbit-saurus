@@ -1,6 +1,5 @@
 ---
 sidebar_position: 4
-draft: true
 ---
 
 # OracleDB 指示書 3
