@@ -37,7 +37,7 @@ DBに問い合わせをする際に必要不可欠となる、特定のデータ
 
 |PDB名|ローカル管理ユーザ名|パスワード|データディレクトリパス|
 |---|---|---|---|
-|exampdb|exam_admin|exam_admin|/u02/oradata/CDB1/exampdb/|
+|exampdb|exampdb_admin|exampdb_admin|/u02/oradata/CDB1/exampdb/|
 
 
 課題用DB作成が完了したら、  

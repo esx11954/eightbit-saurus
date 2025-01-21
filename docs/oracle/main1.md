@@ -49,3 +49,66 @@ LinuxOSの操作方法を学習します。
 
 - [研修用PDB及びユーザ作成手順](./manual/page3.md)
 
+:::caution
+## サーバを再起動した場合
+
+環境構築完了後、使用している仮想マシンを再起動した場合、  
+以下の流れを踏まないと特定PDBでの作業はできません。  
+一連の流れとして記憶しておきましょう。
+
+--- 
+
+1. **oracleユーザでログインする**  
+環境構築時、Oracleサービスで使用する各環境変数は `/home/oracle/scripts/setEnv.sh` に定義しています。  
+Linux上におけるoracleユーザのログインをトリガーとして、 `/home/oracle/.bash_profile` が実行されます。  
+環境構築時には `/home/oracle/scripts/setEnv.sh` を `/home/oracle/.bash_profile` に登録しました。  
+これによりログイン時に必要な環境変数が読み込まれるという仕組みです。
+
+---
+
+2. **sqlplusコマンドを使用してCDBに接続する**  
+```bash
+$ sqlplus / as sysdba
+```
+
+---
+
+3. **STARTUPコマンドでCDBを起動する**  
+```sql
+SQL> STARTUP
+```
+
+---
+
+4. **PDBを起動する**  
+```sql
+SQL> ALTER PLUGGABLE DATABASE all OPEN;
+/*
+上記コマンドでは全てのPDBを一斉起動していますが、
+「all」の箇所を特定PDB名に変更することで対象PDBのみを起動することもできます。
+*/
+```
+
+※以下のクエリを実行することで特定PDBの自動起動が有効になります。
+
+```sql
+SQL> ALTER PLUGGABLE DATABASE PDB名 SAVE STATE;
+```
+
+---
+
+5. **PDBに接続する**  
+上記が完了すると特定のPDBへの接続が可能です。
+```sql
+-- SQLプロンプトから接続する場合
+SQL> conn ユーザ名/パスワード@PDB名
+```
+```bash
+# Linuxプロンプトから接続する場合
+$ sqlplus ユーザ名/パスワード@PDB名
+```
+
+:::
+
+
+
