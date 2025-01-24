@@ -18,7 +18,7 @@ PDBシードをテンプレートとした**mypdb**という名称のPDBを作�
 :::
 
 ```SQL
-SQL> alter session set container=PDB$SEED   -- PDB$SEEDに接続
+SQL> alter session set container=PDB$SEED;   -- PDB$SEEDに接続
 SQL> select file_name from dba_data_files;    -- PDBシードのデータファイルパス確認
     /*
     出力例 ↓
