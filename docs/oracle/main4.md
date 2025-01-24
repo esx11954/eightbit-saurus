@@ -110,9 +110,12 @@ select name, value from v$parameter where name='spfile';
 4. **CONTROLFILEリストア**  
 バックアップ課題の手順4. で控えたバックアップセットファイルからCONTROLFILEをリストアして下さい。  
 以下のコマンドでCONTROLFILEがリストアされたかどうかを確認しましょう。  
+:::info
+※データベースをマウントした後に確認可能になります。
 ```sql
 select * from V$CONTROLFILE;
 ```
+:::
 ![画像](./img/bu6.png)
 
 5. **マウントし、データベースのリストア及びリカバリを実行して下さい。**  
