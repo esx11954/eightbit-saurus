@@ -28,16 +28,17 @@ sidebar_position: 2
 
 ### 開発環境
 - Windows11
-- Python3.11.x
+- Python3.12.x
 - Git
 - Github
 - VSCode
 
 ### デプロイ環境
-- Linux (CentOS7.9)
+- Linux (AlmaLinux9.5)
     - nginx
+    - uwsgi
     - django
-    - sqlite
+    - postgreSQL
     - python
     - gcc
 
