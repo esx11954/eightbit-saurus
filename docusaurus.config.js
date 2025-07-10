@@ -56,7 +56,10 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
-
+        googleAnalytics: {
+          trackingID: 'G-JW1ZZBK2ZV',
+          anonymizeIP: true,
+        },
       }),
     ],
   ],
