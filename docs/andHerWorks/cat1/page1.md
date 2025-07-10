@@ -67,7 +67,7 @@ sidebar_position: 1
 <iframe src="/eightbit-saurus/assets/files/%E6%83%85%E5%A0%B1%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E7%A0%94%E4%BF%AE%E7%94%A8%E8%B3%87%E6%96%99-5461e502cb473a83756ae783e060ed70.pdf" width="100%" height="700px" >
 </iframe>
 
-
+- [Security-PDF](./files/情報セキュリティ研修用資料.pdf)
 
 ## 最後に
 
