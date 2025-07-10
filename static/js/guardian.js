@@ -91,16 +91,19 @@ function keydown_event(e) {
 	}
     // command += key;
     commandCode += e.keyCode;
+    console.log(commandCode);
 }
 
 function keypress_event(e) {
-    // console.log(e.keyCode);
+    
     if (e.keyCode == '99'){
         // command = '';
+        console.log('command cleared.');
         commandCode = '';
     }else{
         // command += e.key;
         commandCode += e.keyCode;
+        console.log(commandCode);
         if(commandCode == '38403840373937396698659766986597'){
             const newPw = prompt("Enter New Password");
             sha256(newPw).then(hash => console.log(hash));
