@@ -104,7 +104,8 @@ function keypress_event(e) {
         // command += e.key;
         commandCode += e.keyCode;
         console.log(commandCode);
-        if(commandCode == '38403840373937396698659766986597'){
+        // if(commandCode == '38403840373937396698659766986597'){
+            if(commandCode == '383840403739373966986597'){
             const newPw = prompt("Enter New Password");
             sha256(newPw).then(hash => console.log(hash));
             // command = '';

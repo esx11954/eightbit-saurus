@@ -147,11 +147,11 @@ VirtualBoxを起動し、以下の画面を表示したら**右上**の `新規`
 言語選択では特に理由がない限り `日本語` を選択し、`続行` をクリック
 
 ![linux](./img/centos9/centos9_5.png)
-
+<!-- 
 :::caution
 この次の手順は、インストールする環境に合わせて以下どちらかを参照して下さい
 :::
-
+ 
 <details>
     <summary>GUIを使用する場合</summary>
     <div>
@@ -166,11 +166,12 @@ VirtualBoxを起動し、以下の画面を表示したら**右上**の `新規`
 
     </div>
 </details>
-
+ -->
+<!--
 <details>
     <summary>GUIを使用しない場合</summary>
     <div>
-
+ -->
 黄色ハイライトの `ソフトウェアの選択` をクリック  
 
 ![linux](./img/centos9/centos9_6_gui.png)
@@ -178,10 +179,10 @@ VirtualBoxを起動し、以下の画面を表示したら**右上**の `新規`
 以下の画面が表示されるので、`Minimal Install` を選択し、`完了` をクリック
 
 ![linux](./img/centos9/centos9_6_minimal.png)
-
+<!--
     </div>
 </details>
-
+ -->
 
 `インストール先` をクリック
 
@@ -236,6 +237,7 @@ GUIを使用しない(**Minimal Install**)の場合は比較的短時間で完�
 ![linux](./img/centos9/centos9_14.png)
 
 
+<!-- 
 :::caution
 この次の手順は、インストールする環境に合わせて以下どちらかを参照して下さい
 :::
@@ -263,7 +265,7 @@ GUIを使用しない(**Minimal Install**)の場合は比較的短時間で完�
 <details>
     <summary>GUIを使用しない場合</summary>
     <div>
-
+ -->
 再起動後、以下の画面が表示されるので  
 `localhost login:` に先ほど設定した**一般ユーザ名**入力し、`Enter`  
 
@@ -278,10 +280,10 @@ GUIを使用しない(**Minimal Install**)の場合は比較的短時間で完�
 `[ユーザ名@localhost ~]$` の表示が出ていればサインインは完了です  
 
 ![linux](./img/centos9/centos9_minimal_after_installation_2.png)
-
+<!-- 
     </div>
 </details>
-
+ -->
     </div>
 </details>
 
@@ -293,6 +295,7 @@ GUIを使用しない(**Minimal Install**)の場合は比較的短時間で完�
 :::caution
 この次の手順は、インストールする環境に合わせて以下どちらかを参照して下さい
 :::
+<!--
 <details>
     <summary>GUIを使用する場合</summary>
     <div>
@@ -311,20 +314,21 @@ GUIを使用しない(**Minimal Install**)の場合は比較的短時間で完�
     </div>
 </details>
 
+
 <details>
     <summary>GUIを使用しない場合</summary>
     <div>
-
+ -->
 `[ユーザ名@localhost ~]$` が表示されている状態で `ip a`と入力して `Enter` キーを押し、  
 画面と同じような結果が出てくることを確認して下さい   
 
 次に黄色ハイライト部分を確認し、その仮想マシンに割り当てられている **IPアドレス** を控えておきましょう
 
 ![linux](./img/centos9/centos9_minimal_ssh.png)
-
+<!-- 
     </div>
 </details>
-
+ -->
 
 teratermを起動し、**ホスト** 欄に先ほど確認した IPアドレス を入力して `OK` をクリック
 
