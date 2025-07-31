@@ -12,7 +12,8 @@ let command = '';
 let commandCode = '';
 
 function checkCookie(cookie, cookieName){
-    const ebHash = '695980c946d63a3ff880d57579ffa0a36e71b2a337fde8adc73cfaef983bcb47';
+    const ebHash = 'c85e82f936b76f8391625a93737f184dca8815bad48fef6e2faace22f4849b19';
+    // const ebHash = '695980c946d63a3ff880d57579ffa0a36e71b2a337fde8adc73cfaef983bcb47';
     // 695980c946d63a3ff880d57579ffa0a36e71b2a337fde8adc73cfaef983bcb47
     // No Cookie exists
     if(!cookie){
