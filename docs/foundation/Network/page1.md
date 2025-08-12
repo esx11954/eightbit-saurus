@@ -51,8 +51,8 @@ sidebar_position: 1
     <div>
 ### 1. 導入動画
 
-<!-- [動画リンク](https://drive.google.com/drive/folders/1J0e65zstbx4Cv57UdoTMinEOOegeXnT8?usp=sharing) -->
-[動画リンク](https://drive.google.com/drive/folders/1kUrrvolzYhm2DcNMqVov_1NCrTHwIQd8?usp=drive_link)
+[動画リンク](https://drive.google.com/drive/folders/1J0e65zstbx4Cv57UdoTMinEOOegeXnT8?usp=sharing)
+<!-- [動画リンク](https://drive.google.com/drive/folders/1kUrrvolzYhm2DcNMqVov_1NCrTHwIQd8?usp=drive_link) -->
 
 上記のリンクの **3.IPアドレスの計算方法.mp4** までの動画を視聴して下さい  
 視聴が完了したらら担当講師までお声がけいただき確認テストを実施してください
@@ -81,8 +81,8 @@ sidebar_position: 1
     <summary>パケットトレーサー課題</summary>
     <div>
 
-<!-- [動画リンク](https://drive.google.com/drive/folders/1J0e65zstbx4Cv57UdoTMinEOOegeXnT8?usp=sharing) -->
-[動画リンク](https://drive.google.com/drive/folders/1kUrrvolzYhm2DcNMqVov_1NCrTHwIQd8?usp=drive_link)
+[動画リンク](https://drive.google.com/drive/folders/1J0e65zstbx4Cv57UdoTMinEOOegeXnT8?usp=sharing)
+<!-- [動画リンク](https://drive.google.com/drive/folders/1kUrrvolzYhm2DcNMqVov_1NCrTHwIQd8?usp=drive_link) -->
 
 
 上記のリンクの続きから視聴して下さい  
