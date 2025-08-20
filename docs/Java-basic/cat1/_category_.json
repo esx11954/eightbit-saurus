@@ -1,0 +1,8 @@
+{
+  "label": "導入",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Javaの学習を開始する前の環境についての説明や前提知識を解説しています."
+  }
+}
