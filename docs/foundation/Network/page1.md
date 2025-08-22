@@ -54,7 +54,7 @@ sidebar_position: 1
 [動画リンク](https://drive.google.com/drive/folders/1J0e65zstbx4Cv57UdoTMinEOOegeXnT8?usp=sharing)
 <!-- [動画リンク](https://drive.google.com/drive/folders/1kUrrvolzYhm2DcNMqVov_1NCrTHwIQd8?usp=drive_link) -->
 
-上記のリンクの **3.IPアドレスの計算方法.mp4** までの動画を視聴して下さい  
+上記のリンクの **第4章　IPv4アドレッシング** までの動画を視聴して下さい  
 視聴が完了したらら担当講師までお声がけいただき確認テストを実施してください
 
 ### 2. 確認テスト
@@ -86,7 +86,7 @@ sidebar_position: 1
 
 
 上記のリンクの続きから視聴して下さい  
-**5-2.スタティックルーティング_後半.mp4** まで終わったら、以下の課題に着手しましょう
+**第5章　IPルーティングの基礎** まで終わったら、以下の課題に着手しましょう
 
 <details>
     <summary>【課題1】</summary>
@@ -174,7 +174,7 @@ sidebar_position: 1
 |提出物1|ping の結果を講師にSlackで送る|
 |提出物2|名前を付けて保存「.pkt」のファイルを講師に送る|
 |ポイント|スタティックルーティングの設定|
-|構成図|![pkt](./img/pkt4.jpg)|
+|構成図|![pkt](./img/pkt4.png)|
 
 :::caution
 今回、ダイナミックルーティングは使用しません  
