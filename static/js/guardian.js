@@ -32,10 +32,24 @@ function checkCookie(cookie, cookieName){
         let ebCookie = GetCookie(cookieName);
         if(ebCookie.split('=')[0] != ebHash){
             alert('The Cookie value has expired.\nYou just ask it to me.');
-            document.location.reload();
+            // document.location.reload();
             let date = new Date();
             date.setTime(date.getTime() - 1);
-            document.cookie = `${cookieName}=; expires=${date.toUTCString()}`;
+            // document.cookie = `${cookieName}=; expires=${date.toUTCString()}`;
+            document.cookie = `${cookieName}=; max-age=0`;
+            if(ebCookie.split('=')[0] != ''){
+                const result = prompt("Enter Password");
+                sha256(result).then(hash => {
+                    if (hash == ebHash) {
+                        // document.cookie = `${cookieName}=${encodeURIComponent(hash)}; Max-Age=${60*60*24*30}; secure`;
+                        document.cookie = `${cookieName}=${encodeURIComponent(hash)}; expires=${getExpireDate()}; secure`;
+                    }else{
+                        alert('Wrong Password');
+                        document.location.reload();
+                    }
+                });
+            }
+            document.location.reload();
         }
     }
 }
@@ -105,11 +119,35 @@ function keypress_event(e) {
         // command += e.key;
         commandCode += e.keyCode;
         console.log(commandCode);
+        rootDir = '/eightbit-saurus/docs/';
         // if(commandCode == '38403840373937396698659766986597'){
-            if(commandCode == '383840403739373966986597'){
+        if(commandCode == '383840403739373966986597'){
             const newPw = prompt("Enter New Password");
             sha256(newPw).then(hash => console.log(hash));
-            // command = '';
+            commandCode = '';
+        }else if(commandCode == '741066597861186597'){  // java
+            document.location = rootDir + 'Java-basic/cat1/page0.8';
+            commandCode = '';
+        }else if(commandCode == '801128912184116721047911178110'){  // python
+            document.location = rootDir + 'Python/page1';
+            commandCode = '';
+        }else if(commandCode == '79111821146597'){  // oracle
+            document.location = rootDir + 'oracle/main1';
+            commandCode = '';
+        }else if(commandCode == '711037310584116'){  // git
+            document.location = rootDir + 'Git/page1';
+            commandCode = '';
+        }else if(commandCode == '721046910182114'){  // her
+            document.location = rootDir + 'andHerWorks/cat1/page1';
+            commandCode = '';
+        }else if(commandCode == '8611873105681006910179111'){  // video
+            document.location = rootDir + 'category/videocategory';
+            commandCode = '';
+        }else if(commandCode == '871197310578110'){  // win
+            document.location = rootDir + 'ws/cat1/page1';
+            commandCode = '';
+        }else if(commandCode == '80112871198311572104'){  // pwsh
+            document.location = rootDir + 'command/page1';
             commandCode = '';
         }
     }
