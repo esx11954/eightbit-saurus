@@ -3,28 +3,28 @@ import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 const FeatureList = [
-  {
-    title: 'Java',
-    // Svg: require('@site/static/img/java.svg').default,
-    description: (
-      <>
-        Java is a multi-platform, object-oriented, and network-centric language that can be used as a platform in itself.
-      </>
-    ),
-    link: '/eightbit-saurus/docs/category/環境構築',
-    img: 'img/java_icon.png',
-  },
-  {
-    title: 'Python',
-    // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.
-      </>
-    ),
-    link: '/eightbit-saurus/docs/Python/page1',
-    img: 'img/python_icon2.png',
-  },
+  // {
+  //   title: 'Java',
+  //   // Svg: require('@site/static/img/java.svg').default,
+  //   description: (
+  //     <>
+  //       Java is a multi-platform, object-oriented, and network-centric language that can be used as a platform in itself.
+  //     </>
+  //   ),
+  //   link: '/eightbit-saurus/docs/category/環境構築',
+  //   img: 'img/java_icon.png',
+  // },
+  // {
+  //   title: 'Python',
+  //   // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+  //   description: (
+  //     <>
+  //       Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.
+  //     </>
+  //   ),
+  //   link: '/eightbit-saurus/docs/Python/page1',
+  //   img: 'img/python_icon2.png',
+  // },
   {
     title: 'MySQL',
     // Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,

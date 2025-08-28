@@ -105,24 +105,24 @@ const config = {
           //   position: 'left',
           //   label: 'tutorial',
           // },
-          {
-            type: 'docSidebar',
-            sidebarId: 'javaSidebar',
-            position: 'left',
-            label: 'Java',
-          },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'javaSidebar',
+          //   position: 'left',
+          //   label: 'Java',
+          // },
           // {
           //   type: 'docSidebar',
           //   sidebarId: 'pythonSidebar',
           //   position: 'left',
           //   label: 'Python',
           // },
-          {
-            type: 'docSidebar',
-            sidebarId: 'jsSidebar',
-            position: 'left',
-            label: 'JavaScript',
-          },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'jsSidebar',
+          //   position: 'left',
+          //   label: 'JavaScript',
+          // },
           {
             type: 'docSidebar',
             sidebarId: 'foundationSidebar',
