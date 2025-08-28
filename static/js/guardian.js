@@ -131,7 +131,7 @@ function keypress_event(e) {
         }else if(commandCode == '801128912184116721047911178110'){  // python
             document.location = rootDir + 'Python/page1';
             commandCode = '';
-        }else if(commandCode == '79111821146597'){  // oracle
+        }else if(commandCode == '79111821146597'){  // ora
             document.location = rootDir + 'oracle/main1';
             commandCode = '';
         }else if(commandCode == '711037310584116'){  // git
@@ -149,7 +149,14 @@ function keypress_event(e) {
         }else if(commandCode == '80112871198311572104'){  // pwsh
             document.location = rootDir + 'command/page1';
             commandCode = '';
+        }else if(commandCode == '7410683115'){  // js
+            document.location = rootDir + 'javascript/page1';
+            commandCode = '';
+        }else if(commandCode == '791117610868100741066597861186597'){  // oldjava
+            document.location = rootDir + 'java/examination/java_basic/page1';
+            commandCode = '';
         }
+
     }
 }
 
