@@ -12,9 +12,9 @@ let command = '';
 let commandCode = '';
 
 function checkCookie(cookie, cookieName){// 
-    const ebHash = '20dd4646e5358838b3ee4a92c47d53ecab0a1ce188304f8178e255b748a14f65';
-    // const ebHash = '695980c946d63a3ff880d57579ffa0a36e71b2a337fde8adc73cfaef983bcb47';
-    // 695980c946d63a3ff880d57579ffa0a36e71b2a337fde8adc73cfaef983bcb47
+    const ebHash = '528e123e75cd15304ef193a15f207fc6b29ada28b172d27b32aa767ced77ba4f';
+    
+    // const ebHash = '20dd4646e5358838b3ee4a92c47d53ecab0a1ce188304f8178e255b748a14f65';
     // No Cookie exists
     if(!cookie){
         const result = prompt("Enter Password");
