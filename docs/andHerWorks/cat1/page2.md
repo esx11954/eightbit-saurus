@@ -64,7 +64,7 @@ Excelスキルを習得することは、キャリアアップにも繋がる重
 ---
 以下のファイルをダウンロードし、Excelにおける基本操作を学習しましょう。  
 
-- [Excel基本操作](./files/EXCEL研修_.xlsx)
+- [Excel基本操作](./files/EXCEL_基本操作.xlsx)
 
 
 ## Excel課題
