@@ -8,3 +8,6 @@ sidebar_position: 0
 使用方法はファイル内に記載されているので、よく読んでから開始して下さい。
 
 - [**模擬試験_解答用紙**](./files/ME161225_AS.xlsm)
+
+
+[link](./files/CCNA_1-100pdf.pdf)
