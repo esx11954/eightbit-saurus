@@ -155,6 +155,9 @@ function keypress_event(e) {
         }else if(commandCode == '791117610868100741066597861186597'){  // oldjava
             document.location = rootDir + 'java/examination/java_basic/page1';
             commandCode = '';
+        }else if(commandCode == '4949494978110'){  // c11n
+            document.location = rootDir + 'nw-c11n/page1';
+            commandCode = '';
         }
 
     }
