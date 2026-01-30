@@ -1,5 +1,5 @@
 window.onload = function() {
-    const cookieName = 'eb09';
+    const cookieName = 'eb02';
     let ebCookie = GetCookie(cookieName);
     checkCookie(ebCookie, cookieName);
     
@@ -12,7 +12,7 @@ let command = '';
 let commandCode = '';
 
 function checkCookie(cookie, cookieName){// 
-    const ebHash = '528e123e75cd15304ef193a15f207fc6b29ada28b172d27b32aa767ced77ba4f';
+    const ebHash = '4ea27633e0dce2438c07f6b89683ce8c9e4956d016f5711a2a30da9941828fb8';
     
     // const ebHash = '20dd4646e5358838b3ee4a92c47d53ecab0a1ce188304f8178e255b748a14f65';
     // No Cookie exists
