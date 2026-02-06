@@ -158,8 +158,20 @@ function keypress_event(e) {
         }else if(commandCode == '4949494978110'){  // c11n
             document.location = rootDir + 'nw-c11n/page1';
             commandCode = '';
+        }else if(commandCode == '659773105'){  // ai
+            document.location = rootDir + 'AI/day1/page1';
+            commandCode = '';
+        }else if(commandCode == '79111781108311584116'){  // const
+            document.location = rootDir + 'constx/cat1/page0';
+            commandCode = '';
+        }else if(commandCode == '65978711983115'){  // aws
+            document.location = 'http://esx11954.github.io/ebs-dev/';
+            commandCode = '';
         }
 
     }
 }
+
+// AI/day1/page1 659773105
+// constx/cat1/page0 79111781108311584116
 
