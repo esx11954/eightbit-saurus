@@ -1,5 +1,7 @@
 # 第2項：安全装置・有害物抑制装置・保護具
 
+<iframe src="https://drive.google.com/file/d/1CycQQQRsljmWfYvQ_k19Ec0ji_cWoUqX/preview" width="640" height="360" allow="fullscreen"></iframe>
+
 ## 1. はじめに：命を守る3つの盾
 
 建設現場には作業員を危険から守るための設備や道具が必ず備わっています。  

@@ -1,5 +1,7 @@
 # 第6項：整理・整頓・清潔の保持（4S/5S活動）
 
+<iframe src="https://drive.google.com/file/d/1neiPeTwUanTkUrQNDxMbAU1wqk4s6qzJ/preview" width="640" height="360" allow="fullscreen"></iframe>
+
 ## 1. はじめに：整理整頓の必要性
 
 建設現場における労働災害の多くは、「つまずき」「転倒」「資材の崩壊」など、現場が散らかっていることが直接の原因で起きています。

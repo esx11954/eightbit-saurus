@@ -1,5 +1,7 @@
 # 第5項：職業性疾病の原因と予防
 
+<iframe src="https://drive.google.com/file/d/1vvclnuV1bTLECRLJRWVgkiGcgZCsRMYd/preview" width="640" height="360" allow="fullscreen"></iframe>
+
 ## 1. はじめに：ケガだけでなく病気も防ぐ
 
 建設業の安全管理というと「墜落」や「挟まれ」などの**事故**（ケガ）に目が行きがちですが、**疾病**（病気）の予防も極めて重要です。  

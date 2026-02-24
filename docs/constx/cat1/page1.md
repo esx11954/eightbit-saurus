@@ -1,5 +1,7 @@
 # 第1項：機械・原材料等の危険性及び取扱い
 
+<iframe src="https://drive.google.com/file/d/11F4K7rH7GuP1d7cJWKFX65IvhEnkt0-p/preview" width="640" height="360" allow="fullscreen"></iframe>
+
 ## 1. はじめに：施工管理者が機械について学ぶ理由
 
 施工管理(特に未経験)の皆さんは、**原則として現場での機械操作や加工作業は行いません**(適用除外業務・禁止業務)。  

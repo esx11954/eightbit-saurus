@@ -1,5 +1,7 @@
 # 第3項：作業手順に関すること
 
+<iframe src="https://drive.google.com/file/d/1xv87vnEmY4s5VOjTFkyDTl8-RA0PWbvK/preview" width="640" height="360" allow="fullscreen"></iframe>
+
 ## 1. はじめに：手順の必要性
 
 建設現場は日々状況が変化します。  

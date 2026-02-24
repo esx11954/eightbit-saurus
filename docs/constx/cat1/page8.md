@@ -1,5 +1,7 @@
 # 第8項：その他、安全衛生に必要な事項
 
+<iframe src="https://drive.google.com/file/d/1Y08RU2ory_PVzhPHJEokYRRQ8lTTKcPq/preview" width="640" height="360" allow="fullscreen"></iframe>
+
 ## 1. はじめに：「その他」こそが現場の規律を作る
 
 これまでの項目で、機械や道具、手順について学びました。  

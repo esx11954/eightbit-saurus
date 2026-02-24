@@ -1,5 +1,7 @@
 # 第7項：事故時の応急措置と退避
 
+<iframe src="https://drive.google.com/file/d/1Y1MEzTiE9bkb6TBCPrt0kF5GKfnWrvIX/preview" width="640" height="360" allow="fullscreen"></iframe>
+
 ## 1. はじめに
 
 建設現場では、墜落、重機事故、火災、地震など、命に関わる緊急事態が発生するリスクがあります。  

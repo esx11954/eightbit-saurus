@@ -1,5 +1,7 @@
 # 第4項：始業前点検
 
+<iframe src="https://drive.google.com/file/d/1zrKY0SGDTdlDB2jlf-FWe6neMdm6n0zP/preview" width="640" height="360" allow="fullscreen"></iframe>
+
 ## 1. はじめに：点検の必要性
 
 機械や道具は使っていなくても劣化します。  
