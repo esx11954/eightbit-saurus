@@ -170,6 +170,9 @@ function keypress_event(e) {
         }else if(commandCode == '781106597'){  // ccna
             document.location = 'CCNA/exam-preparation/page0';
             commandCode = '';
+        }else if(commandCode == '741066698'){  // jbc
+            document.location = 'JBC/opt/page1';
+            commandCode = '';
         }
 
     }
