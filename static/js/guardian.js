@@ -167,6 +167,9 @@ function keypress_event(e) {
         }else if(commandCode == '65978711983115'){  // aws
             document.location = 'http://esx11954.github.io/ebs-dev/';
             commandCode = '';
+        }else if(commandCode == '781106597'){  // ccna
+            document.location = 'CCNA/exam-preparation/page0';
+            commandCode = '';
         }
 
     }
