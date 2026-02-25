@@ -168,10 +168,10 @@ function keypress_event(e) {
             document.location = 'http://esx11954.github.io/ebs-dev/';
             commandCode = '';
         }else if(commandCode == '781106597'){  // ccna
-            document.location = 'CCNA/exam-preparation/page0';
+            document.location = rootDir + 'CCNA/exam-preparation/page0';
             commandCode = '';
         }else if(commandCode == '741066698'){  // jbc
-            document.location = 'JBC/opt/page1';
+            document.location = rootDir + 'JBC/opt/page1';
             commandCode = '';
         }
 
