@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # 建設業の課題への対策
 
+<iframe src="https://drive.google.com/file/d/1UF2MnOi8e2lCu1hOroIEl2EoQx5WvwYO/preview" width="640" height="360" allow="fullscreen"></iframe>
+
 ---
 
 建設業界は今、「人海戦術」や「経験と勘」に頼る古いモデルから、デジタルと効率化を軸とした新しい産業へのアップデートを急いでいます。

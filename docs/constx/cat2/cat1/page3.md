@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # 建設業界の課題
 
+<iframe src="https://drive.google.com/file/d/1yPcn66Ya9mLBQaApoc4oNb1JB7j3NIdM/preview" width="640" height="360" allow="fullscreen"></iframe>
+
 ---
 
 2020年のコロナパンデミックによって、様々な業界が影響を受けましたが、建設業界もその１つです。  

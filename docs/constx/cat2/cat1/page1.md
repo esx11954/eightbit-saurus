@@ -4,6 +4,7 @@ sidebar_position: 1
 
 # 建設業とは
 
+<iframe src="https://drive.google.com/file/d/1RRs4ZLBZNTRfHQ5cxk-IKZxsX9UKsZzI/preview" width="640" height="360" allow="fullscreen"></iframe>
 ---
 
 建設業は、社会の基盤を支える重要な産業です。  

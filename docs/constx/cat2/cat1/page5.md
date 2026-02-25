@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # 建設業の分類
 
+<iframe src="https://drive.google.com/file/d/1nRDAW4-bdivbPqz1CRCy6bQoy5vPYwuL/preview" width="640" height="360" allow="fullscreen"></iframe>
+
 ---
 
 建設業界は、私たちの生活を支える空間やインフラをどのように作り上げるかという役割の違いで、「建築」「土木」「設備」の３分類に分けられます。
