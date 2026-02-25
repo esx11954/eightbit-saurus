@@ -86,16 +86,16 @@ SW1のVTYライン0から4にSSHサーバーを設定します。
 <summary>タスク4の解答・解説を確認する</summary>
 
 ```
-hostname Sw1
-ip domain-name abcxyz.com
-crypto key generate rsa modulus 2048
-ip ssh version 2
+Sw1(config)# hostname Sw1
+Sw1(config)# ip domain-name abcxyz.com
+Sw1(config)# crypto key generate rsa modulus 2048
+Sw1(config)# ip ssh version 2
 
-username admin privilege 15 secret StrongPass!
+Sw1(config)# username admin privilege 15 secret StrongPass!
 
-line vty 0 4
- login local
- transport input ssh
+Sw1(config)# line vty 0 4
+Sw1(config-line)# login local
+Sw1(config-line)# transport input ssh
 ```
 </details>
 
