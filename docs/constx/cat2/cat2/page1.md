@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # あまり知られていない企画～着工まで
 
+<iframe src="https://drive.google.com/file/d/17A3PgBZPjH7SgfkiVi9vEMR9cPF47Nh0/preview" width="640" height="360" allow="fullscreen"></iframe>
+
 ---
 
 建物が実際に現場で作り始められる（着工）よりも前の、非常に重要かつ緻密な準備プロセスについて解説します。

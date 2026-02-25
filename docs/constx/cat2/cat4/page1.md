@@ -4,6 +4,9 @@ sidebar_position: 1
 
 # 工事分類・内容について
 
+<iframe src="https://drive.google.com/file/d/1dptV_5yHnvOAgLzL_6fN4pPR8E_3Dtms/preview" width="640" height="360" allow="fullscreen"></iframe>
+
+
 ---
 
 建設業は単に新しいものを造るだけでなく、古くなったものを壊し、再び新しい価値を創造する**「スクラップ＆ビルド」**のサイクルで成り立っています 。  

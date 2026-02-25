@@ -4,6 +4,9 @@ sidebar_position: 1
 
 # 職種・サブコンの役割
 
+<iframe src="https://drive.google.com/file/d/1zdwY4NZxvClrhKiQxKHx86PWGN32DddX/preview" width="640" height="360" allow="fullscreen"></iframe>
+
+
 ---
 
 建設プロジェクトに関わる主要な職種の役割を詳しく解説します。  

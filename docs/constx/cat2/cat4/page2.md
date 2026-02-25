@@ -4,6 +4,9 @@ sidebar_position: 1
 
 # 工事内容
 
+<iframe src="https://drive.google.com/file/d/1qzMWUcsBgGsIJmfaoCQjk0PbNRlq6_wo/preview" width="640" height="360" allow="fullscreen"></iframe>
+
+
 ---
 
 建設工事内容を一部抜粋して、コンクリート打設工事と測量業務について解説します。
