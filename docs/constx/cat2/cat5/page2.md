@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # 品質管理
 
+<iframe src="https://drive.google.com/file/d/1Gx-dquBQ_8ONeFjTvJfPV25hMG8Ylch8/preview" width="640" height="360" allow="fullscreen"></iframe>
+
 ---
 
 品質管理とは、設計図書に基づいて、耐震性や耐火性などの法令基準を満たした建物を建設するために、その成果物の品質を維持・管理する業務です。  

@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # 安全管理
 
+<iframe src="https://drive.google.com/file/d/11rsarscIAzHzwWc4LvgeVHi55f02wyN3/preview" width="640" height="360" allow="fullscreen"></iframe>
+
 ---
 
 ![image](./img/annzenn1.png)

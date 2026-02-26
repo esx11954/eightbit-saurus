@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # 環境管理
 
+<iframe src="https://drive.google.com/file/d/1okiA0mGePAYz5WA5cgqFVlDCG4AXbMzu/preview" width="640" height="360" allow="fullscreen"></iframe>
+
 ---
 
 ![image](./img/kankyou1.png)

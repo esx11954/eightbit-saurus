@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # 原価管理
 
+<iframe src="https://drive.google.com/file/d/12a423Lb0FdZ8ema99ouQPWQNZBDMwc4d/preview" width="640" height="360" allow="fullscreen"></iframe>
+
 ---
 
 ![image](./img/genak1.png)

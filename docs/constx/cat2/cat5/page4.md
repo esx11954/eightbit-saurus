@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # 工程管理
 
+<iframe src="https://drive.google.com/file/d/1JBiVkDgOLwbrNWHFogoYIgawtK0lePP8/preview" width="640" height="360" allow="fullscreen"></iframe>
+
 ---
 
 ![image](./img/koutei1.png)
