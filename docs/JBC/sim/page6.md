@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 ---
-# Static Routing Confiquration 2
+# Static Routing Configuration 2
 
 ![Topology](./img/sim_20_1.png)
 
