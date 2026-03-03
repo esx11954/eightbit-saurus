@@ -16,8 +16,10 @@ https://drive.google.com/file/d/1AkqRVDfkb413jPJCovi3ge-XmQ5eWxo6/view?usp=shari
 
 動画の視聴が完了した方は、[Excel Copilot Pro の無料体験](https://www.microsoft.com/ja-jp/microsoft-365/try)を開始してください。
 
+※Excel Copilotを使用する際は、OneDrive上にExcelファイルが保存されている必要があります。現在使用しているPCにOneDriveが入っていない場合は、[こちら](https://www.microsoft.com/ja-jp/microsoft-365/onedrive/download)からインストールしてください。
+
 無料体験の開始後、<br />
-[演習用ファイル](../files/day2演習課題用①.zip)から演習に必要なファイルをダウンロードしてください。<br />
+[演習用ファイル](https://drive.google.com/drive/folders/1pJlaXAKl1nujwF2yqjwueVf6I_g3Kxon?usp=drive_link)から演習に必要なファイルをダウンロードしてください。<br />
 ダウンロードが完了したら、演習課題を開始しましょう。
     </div>
 </details>

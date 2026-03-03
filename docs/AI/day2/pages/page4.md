@@ -10,7 +10,7 @@
     <summary>演習課題</summary>
     <div>
 本ページの演習課題では、前ページの演習で使用した以下のファイルを引き続き使用します。<br />
-[演習課題用③（演習8-6~）](../files/day2演習課題用③.zip)
+[演習課題用③（演習8-6~）](https://drive.google.com/drive/folders/15M3TCQrsGToX5XPiSMVm-PYqeATbOXgg?usp=drive_link)
 
 ## 演習9-1　分析前処理のためのデータクレンジング
 
