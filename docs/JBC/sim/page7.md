@@ -3,6 +3,19 @@ sidebar_position: 7
 ---
 # Static Routing Configuration 3
 
+:::tip
+実際にコマンドを入力したい場合は**パケットトレーサーをインストールした上**で、  
+以下のファイルをダウンロードして使用して下さい。  
+- [問題用pktファイル](./files/7.Static%20Routing%20Configuration%203.pkt)
+
+:::caution
+パケットトレーサーがインストールされていない場合は、  
+以下のインストーラをダウンロードしてインストールして下さい。
+- [インストーラ](https://drive.google.com/file/d/1DQRWYmdnin-aAEVFp9fleasGeD1CmtHd/view?usp=sharing)
+:::
+
+:::
+
 ![Topology](./img/sim_33_1.png)
 
 ### タスク

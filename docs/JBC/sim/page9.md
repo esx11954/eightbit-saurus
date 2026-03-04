@@ -3,6 +3,19 @@ sidebar_position: 9
 ---
 # NACL DHCP Snooping
 
+:::tip
+実際にコマンドを入力したい場合は**パケットトレーサーをインストールした上**で、  
+以下のファイルをダウンロードして使用して下さい。  
+- [問題用pktファイル](./files/9.NACL%20DHCP%20Snooping.pkt)
+
+:::caution
+パケットトレーサーがインストールされていない場合は、  
+以下のインストーラをダウンロードしてインストールして下さい。
+- [インストーラ](https://drive.google.com/file/d/1DQRWYmdnin-aAEVFp9fleasGeD1CmtHd/view?usp=sharing)
+:::
+
+:::
+
 ![Topology](./img/sim_37_1.png)
 
 ### タスク

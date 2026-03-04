@@ -3,6 +3,19 @@ sidebar_position: 4
 ---
 # VLAN & LLDP
 
+:::tip
+実際にコマンドを入力したい場合は**パケットトレーサーをインストールした上**で、  
+以下のファイルをダウンロードして使用して下さい。  
+- [問題用pktファイル](./files/4.VLAN%20&%20LLDP.pkt)
+
+:::caution
+パケットトレーサーがインストールされていない場合は、  
+以下のインストーラをダウンロードしてインストールして下さい。
+- [インストーラ](https://drive.google.com/file/d/1DQRWYmdnin-aAEVFp9fleasGeD1CmtHd/view?usp=sharing)
+:::
+
+:::
+
 ![Topology](./img/sim_13_1.png)
 
 | Interface | VLAN | IP Address |

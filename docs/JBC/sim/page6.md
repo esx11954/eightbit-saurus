@@ -3,6 +3,19 @@ sidebar_position: 6
 ---
 # Static Routing Configuration 2
 
+:::tip
+実際にコマンドを入力したい場合は**パケットトレーサーをインストールした上**で、  
+以下のファイルをダウンロードして使用して下さい。  
+- [問題用pktファイル](./files/6.Static%20Routing%20Confiquration%202.pkt)
+
+:::caution
+パケットトレーサーがインストールされていない場合は、  
+以下のインストーラをダウンロードしてインストールして下さい。
+- [インストーラ](https://drive.google.com/file/d/1DQRWYmdnin-aAEVFp9fleasGeD1CmtHd/view?usp=sharing)
+:::
+
+:::
+
 ![Topology](./img/sim_20_1.png)
 
 | Device | interface | IP Address |

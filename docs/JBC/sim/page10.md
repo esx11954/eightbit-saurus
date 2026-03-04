@@ -3,6 +3,19 @@ sidebar_position: 10
 ---
 # NAT DHCP SSH
 
+:::tip
+実際にコマンドを入力したい場合は**パケットトレーサーをインストールした上**で、  
+以下のファイルをダウンロードして使用して下さい。  
+- [問題用pktファイル](./files/10.NAT%20DHCP.pkt)
+
+:::caution
+パケットトレーサーがインストールされていない場合は、  
+以下のインストーラをダウンロードしてインストールして下さい。
+- [インストーラ](https://drive.google.com/file/d/1DQRWYmdnin-aAEVFp9fleasGeD1CmtHd/view?usp=sharing)
+:::
+
+:::
+
 ![Topology](./img/sim_38_1.png)
 
 ### タスク
