@@ -6,7 +6,7 @@ sidebar_position: 1
 :::tip
 実際にコマンドを入力したい場合は**パケットトレーサーをインストールした上**で、  
 以下のファイルをダウンロードして使用して下さい。  
-- [問題用pktファイル](./files/1.Named%20Access-list%20&%20Port%20Security.pkt)
+- [問題用pktファイル](./files/1_Named%20Access-list%20&%20Port%20Security.pkt)
 
 :::caution
 パケットトレーサーがインストールされていない場合は、  
