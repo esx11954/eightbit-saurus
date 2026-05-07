@@ -57,13 +57,19 @@ ls /dev/kvm                 # /dev/kvm が存在する
 cd /var/lib/libvirt/images
 ```
 
-### 1-2. AlmaLinux 9 最小構成 ISO のダウンロード
+### 1-2. AlmaLinux 9 最小構成 ISO の移動
+Windowsにダウンロードされているファイルを仮想マシンに移動します。  
+**コマンドプロンプトで**以下のコマンドを実行して下さい。
 
-```bash
-sudo curl -L -O https://repo.almalinux.org/almalinux/9/isos/x86_64/AlmaLinux-9-latest-x86_64-minimal.iso
+```cmd
+scp "C:\Users\user\Desktop\AlmaLinux-9.7-x86_64-minimal.iso" root@ホストのIPアドレス:/var/lib/libvirt/images/
 ```
 
-> ダウンロードに数分かかります。進捗が `%` で表示されます。
+完了後、ファイルが移動されていれば以下のコマンドでisoファイルが表示されます。
+
+```bash
+ls -lh /var/lib/libvirt/images/
+```
 
 ### 1-3. ダウンロードの確認
 
@@ -83,11 +89,11 @@ ls -lh /var/lib/libvirt/images/*.iso
 
 ```bash
 sudo virt-install \
-  --name almalinux01 \
+  --name almalinux9-test \
   --vcpus 2 \
   --memory 2048 \
   --disk path=/var/lib/libvirt/images/almalinux01.qcow2,size=20,format=qcow2 \
-  --cdrom /var/lib/libvirt/images/AlmaLinux-9-latest-x86_64-minimal.iso \
+  --location /var/lib/libvirt/images/AlmaLinux-9.7-x86_64-minimal.iso \
   --os-variant almalinux9 \
   --network network=default \
   --graphics none \

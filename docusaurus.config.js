@@ -24,7 +24,13 @@ const config = {
   projectName: 'docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'log',
-  onBrokenMarkdownLinks: 'warn',
+  // onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -71,10 +77,8 @@ const config = {
     },
   ],
 
-  markdown: {
-    mermaid: true,
-  },
-  themes: [//'@docusaurus/theme-mermaid', 
+
+  themes: ['@docusaurus/theme-mermaid', 
     '@docusaurus/theme-live-codeblock'],
   plugins: [
       // Using three docs plugins at the same time!

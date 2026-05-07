@@ -159,7 +159,7 @@ function keypress_event(e) {
             document.location = rootDir + 'nw-c11n/page1';
             commandCode = '';
         }else if(commandCode == '659773105'){  // ai
-            document.location = rootDir + 'AI/day1/page1';
+            document.location = rootDir + 'AI/day1/pages/page1';
             commandCode = '';
         }else if(commandCode == '79111781108311584116'){  // const
             document.location = rootDir + 'constx/cat1/page0';
