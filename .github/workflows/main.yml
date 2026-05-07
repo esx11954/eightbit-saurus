@@ -10,10 +10,10 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4 # v2 -> v4 に更新
+      - uses: actions/setup-node@v4 # v3 -> v4 に更新
         with:
-          node-version: 18
+          node-version: 22 # 18 -> 22 (現在の最新LTS) に更新
           cache: npm
 
       - name: Install dependencies
