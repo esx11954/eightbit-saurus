@@ -173,8 +173,13 @@ function keypress_event(e) {
         }else if(commandCode == '741066698'){  // jbc
             document.location = rootDir + 'JBC/opt/page1';
             commandCode = '';
+        }else if(commandCode == '80112791118311584116'){  // post
+            document.location = rootDir + 'postgre/intro/rdb';
+            commandCode = '';
+        }else if(commandCode == '751078611877109'){  // kvm
+            document.location = rootDir + 'KVM/day2/vm-lifecycle';
+            commandCode = '';
         }
-
     }
 }
 
