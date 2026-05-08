@@ -177,7 +177,7 @@ function keypress_event(e) {
             document.location = rootDir + 'postgre/intro/rdb';
             commandCode = '';
         }else if(commandCode == '751078611877109'){  // kvm
-            document.location = rootDir + 'KVM/day2/vm-lifecycle';
+            document.location = rootDir + 'KVM/day1/virtualization-basics';
             commandCode = '';
         }
     }
