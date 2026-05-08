@@ -93,25 +93,7 @@ flowchart TB
 
 ## NATとブリッジの比較
 
-```mermaid
-flowchart LR
-    subgraph nat_mode["NATモード"]
-        nat_ext["外部"] -->|"到達不可<br/>（ポートFWなし）"| nat_vm["VM"]
-        nat_vm -->|"通信可"| nat_ext
-    end
-
-    subgraph bridge_mode["ブリッジモード"]
-        br_ext["外部"] <-->|"双方向通信可"| br_vm["VM"]
-    end
-```
-
-| 比較項目 | NAT | ブリッジ |
-|---------|-----|---------|
-| 設定の容易さ | ◎ デフォルトで使用可能 | △ ブリッジ作成が必要 |
-| 外部からのアクセス | ✗（ポートFW要） | ◎ |
-| IPアドレス管理 | libvirt内部DHCP | 物理NWと統一 |
-| 分離性 | 高い | 低い |
-| 用途 | 学習・開発環境 | 本番・サーバー用途 |
+![kvm](../img/kvm3.png)
 
 ## libvirtによるネットワーク管理
 

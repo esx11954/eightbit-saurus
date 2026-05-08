@@ -89,7 +89,7 @@ ls -lh /var/lib/libvirt/images/*.iso
 
 ```bash
 sudo virt-install \
-  --name almalinux9-test \
+  --name almalinux01 \
   --vcpus 2 \
   --memory 2048 \
   --disk path=/var/lib/libvirt/images/almalinux01.qcow2,size=20,format=qcow2 \

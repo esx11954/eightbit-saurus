@@ -1,6 +1,6 @@
 ---
 id: day3-exercises
-title: Day 3 演習：リソース設計・障害調査
+title: 演習：リソース設計・障害調査
 sidebar_position: 10
 ---
 

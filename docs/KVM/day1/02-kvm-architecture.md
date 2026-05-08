@@ -54,6 +54,8 @@ flowchart TB
     QEMU --> NIC
 ```
 
+![kvm](../img/kvm1.png)
+
 ### 各コンポーネントの役割
 
 | コンポーネント | 役割 |
@@ -65,6 +67,8 @@ flowchart TB
 | **virt-manager** | libvirtへのGUIインターフェース |
 
 ## 仮想化方式
+
+![kvm](../img/kvm2.png)
 
 ### 完全仮想化（Full Virtualization）
 
