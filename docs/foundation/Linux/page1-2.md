@@ -2,28 +2,28 @@
 sidebar_position: 2
 ---
 
-# Linux基礎 CentOS9
+# Linux基礎
 
 <details>
     <summary>導入</summary>
     <div>
 ## 環境確認
 
-### 1. CentOSイメージファイル  
+### 1. AlmaLinuxイメージファイル  
 
 仮想マシンにインストールするイメージファイルです  
-約 **10GB** のファイルですので、予めダウンロードしてデスクトップ等、わかりやすい場所に移動しておきましょう  
+約 **2GB** のファイルですので、予めダウンロードしてデスクトップ等、わかりやすい場所に移動しておきましょう  
 
 ※実行する必要はありません
 
-[CentOSイメージファイル](https://ftp.iij.ad.jp/pub/linux/centos-stream/9-stream/BaseOS/x86_64/iso/CentOS-Stream-9-latest-x86_64-dvd1.iso)
+[OSイメージファイル](https://repo.almalinux.org/almalinux/9/isos/x86_64/AlmaLinux-9.7-x86_64-minimal.iso)
 
 
 ### 2. VirtualBox
 
 **まずはお使いのPCにインストールされているかを確認して下さい**  
 仮想環境を構築するためのアプリケーションです  
-WindowsPCの中に仮想的にCentOS(LinuxPC)を構築します  
+WindowsPCの中に仮想的にLinuxPCを構築します  
 ダウンロード完了したら実行し、インストールまで済ませましょう  
 
 [VirtualBoxインストーラ](https://download.virtualbox.org/virtualbox/7.0.18/VirtualBox-7.0.18-162988-Win.exe)
@@ -101,12 +101,12 @@ VirtualBoxを起動し、以下の画面を表示したら**右上**の `新規`
 ![linux](./img/linux7.png)
 
 以下の選択項目からは `ディスクファイルを選択` をクリックし、  
-[導入](#1-centosイメージファイル)でダウンロードしたCentOSのイメージファイルを選択します  
+[導入](#1-centosイメージファイル)でダウンロードしたイメージファイルを選択します  
 
 ![linux](./img/linux8.png)
 
 イメージファイルを選択後、元の画面に戻ります  
-黄色ハイライト部分が `CentOS-Stream9-...` のような表記になっている事を確認して下さい
+黄色ハイライト部分が画像のような表記になっている事を確認して下さい
 
 ![linux](./img/centos9/centos9_3.png)
 
@@ -205,7 +205,7 @@ VirtualBoxを起動し、以下の画面を表示したら**右上**の `新規`
 
 :::danger
 ここでは仮想マシンの管理者ユーザのパスワードを設定しています  
-設定したパスワードを忘れてしまうと1からCentOSをインストールすることになります  
+設定したパスワードを忘れてしまうと1からOSをインストールすることになります  
 本来好ましくありませんが、研修中に**ログインできない**等の余計なトラブル防止のため、パスワードは `root` に設定しましょう  
 
 `パスワードによるroot SSHログインを許可`   
@@ -352,7 +352,7 @@ teratermを起動し、**ホスト** 欄に先ほど確認した IPアドレス 
 
 上記の手順が完了したら以下の動画で学習を進めて下さい  
 
-[**【Linux動画リンク】**](https://drive.google.com/drive/folders/14_1YP1DNkI2bV8HTzek4C0i73et3iTvt?usp=sharing)
+[**【Linux動画リンク】**](https://drive.google.com/drive/folders/1Wnsd4jL_2zsUZpf3hT1HdSDwCGsW1hu1?usp=sharing)
 
 :::caution
 動画内の講師と同じようにコマンドを打ちながら学習を進めてください  
