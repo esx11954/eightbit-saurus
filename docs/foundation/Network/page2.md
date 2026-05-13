@@ -41,7 +41,7 @@ PC以外のGUI設定は禁止とします
 
 以下のリンクからファイルをpktファイルをダウンロードして下さい  
 
-[課題ファイルダウンロード](https://drive.google.com/open?id=13A5FMEEgHBMs232KbpWmaJxe1aIQf1no&authuser=m.isobe.reg%40gmail.com&usp=drive_fs)
+[課題ファイルダウンロード](./files/追加課題2%20(EX_2_初期状態).pkt)
 
 :::caution
 PC以外のGUI設定は禁止とします  
