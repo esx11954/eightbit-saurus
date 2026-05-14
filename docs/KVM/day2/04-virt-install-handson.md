@@ -111,7 +111,7 @@ sudo virt-install \
 | `--disk path=...` | qcow2 ファイルパス | ディスクイメージの場所と設定 |
 | `size=20` | ― | ディスクサイズ（GB） |
 | `format=qcow2` | ― | ディスク形式（シンプロビジョニング） |
-| `--cdrom` | ISO ファイルパス | インストールメディア |
+| `--location` | ISO ファイルパス | インストールメディア |
 | `--os-variant` | `almalinux9` | OS の種類（最適なデフォルト値を設定） |
 | `--network` | `network=default` | 接続するネットワーク |
 | `--graphics none` | ― | GUI なし（WSL2 ではテキストモードを使用） |
