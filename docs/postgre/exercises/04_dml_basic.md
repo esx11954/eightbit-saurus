@@ -8,7 +8,7 @@ title: "DML基礎演習"
 対応章: [5章 DML基礎](../05_dml_basic/01_overview.md)
 
 :::info 解答用紙のダウンロード
-[📄 04_dml_basic.txt](./files/04_dml_basic.txt) をダウンロードし、このページを見ながらテキストエディタで解答を記入してください。
+<a href="./files/04_dml_basic.txt" download>📄 04_dml_basic.txt</a> をダウンロードし、このページを見ながらテキストエディタで解答を記入してください。
 :::
 
 ---

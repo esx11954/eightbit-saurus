@@ -8,7 +8,7 @@ title: "DCL演習"
 対応章: [3章 DCL](../03_dcl/01_overview.md)
 
 :::info 解答用紙のダウンロード
-[📄 02_dcl.txt](./files/02_dcl.txt) をダウンロードし、このページを見ながらテキストエディタで解答を記入してください。
+<a href="./files/02_dcl.txt" download>📄 02_dcl.txt</a> をダウンロードし、このページを見ながらテキストエディタで解答を記入してください。
 :::
 
 ---

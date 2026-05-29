@@ -8,7 +8,7 @@ title: "TCL演習"
 対応章: [4章 TCL](../04_tcl/01_overview.md)
 
 :::info 解答用紙のダウンロード
-[📄 03_tcl.txt](./files/03_tcl.txt) をダウンロードし、このページを見ながらテキストエディタで解答を記入してください。
+<a href="./files/03_tcl.txt" download>📄 03_tcl.txt</a> をダウンロードし、このページを見ながらテキストエディタで解答を記入してください。
 :::
 
 ---
