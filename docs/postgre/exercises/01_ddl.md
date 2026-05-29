@@ -8,7 +8,7 @@ title: "DDL演習"
 対応章: [2章 DDL](../02_ddl/01_overview.md)
 
 :::info 解答用紙のダウンロード
-<a href="./files/01_ddl.txt" download>📄 01_ddl.txt</a> をダウンロードし、このページを見ながらテキストエディタで解答を記入してください。
+[📄 01_ddl.txt](./files/01_ddl.txt) をダウンロードし、このページを見ながらテキストエディタで解答を記入してください。
 :::
 
 ---
