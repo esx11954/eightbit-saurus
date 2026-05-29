@@ -173,6 +173,15 @@ COMMIT;
 - `SELECT ... INTO 変数名` でクエリ結果を変数に格納します
 - 行が見つからなかった場合は `NOT FOUND` が `TRUE` になります
 
+**問題3（テーブルを返す関数）**
+- `RETURNS TABLE(列名 型, ...)` で複数列を返す関数を定義します
+- `CREATE OR REPLACE FUNCTION` では**戻り値の型（列構成）は変更できません**。戻り値を変えたい場合は先に `DROP FUNCTION 関数名(引数型);` で削除してから再作成してください
+  ```sql
+  -- 戻り値の型を変えたいとき
+  DROP FUNCTION get_top_earners(INTEGER);
+  CREATE FUNCTION get_top_earners(n INTEGER) RETURNS TABLE(...) ...;
+  ```
+
 **問題4（トリガー）**
 - トリガー関数は `RETURNS TRIGGER` と宣言します
 - `BEFORE UPDATE` トリガーでは `NEW` を返す必要があります
@@ -202,6 +211,29 @@ COMMIT;
 - 同じ条件が複数回出てくる場合はCTEでまとめましょう
 
 **問題3（再帰CTEで組織ツリー）**
+
+`manager_id IS NULL` の行がツリーの**起点**（アンカー）です。INSERTしたデータは以下の階層構造になっています。
+
+```mermaid
+graph TD
+    A["(1) 社長<br/>manager_id = NULL ← アンカー"]
+    B["(2) 開発部長<br/>manager_id = 1"]
+    C["(3) 営業部長<br/>manager_id = 1"]
+    D["(4) 開発リーダー<br/>manager_id = 2"]
+    E["(5) 開発メンバーA<br/>manager_id = 4"]
+    F["(6) 開発メンバーB<br/>manager_id = 4"]
+    G["(7) 営業メンバーC<br/>manager_id = 3"]
+
+    A --> B
+    A --> C
+    B --> D
+    D --> E
+    D --> F
+    C --> G
+```
+
+再帰CTEはこの構造を**上から順にたどる**ことで全行を取得します。
+
 - `REPEAT('  ', depth)` でdepthの数だけスペースを繰り返してインデントを表現できます
 - `depth` を0から始め、再帰ステップで `depth + 1` としてインクリメントします
 
