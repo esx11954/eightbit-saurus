@@ -31,7 +31,7 @@ title: "1-3. 用語整理とPostgreSQLへの接続・操作方法"
 1. [公式サイト（EnterpriseDB）](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) から自分のOSに合ったインストーラーをダウンロードします。
 2. インストーラーを実行し、以下を設定します。
    - **Components**: `PostgreSQL Server`, `pgAdmin 4`, `Stack Builder`, `Command Line Tools`
-   - **Password**: 忘れないようメモしておく（`root`）
+   - **Password**: `root` に設定して下さい
    - **Port**: デフォルトの `5432` でOK
    - **Locale**: `C`（または `Japanese, Japan`）
 
