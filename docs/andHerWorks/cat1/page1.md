@@ -52,19 +52,19 @@ sidebar_position: 1
 
 <iframe width="100%" height="500px" src="https://www.youtube.com/embed/utJlxUNlemE?si=eHS7AcLVtLfeJHk8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen="true"></iframe>
 
-## 確認テスト
+<!-- ## 確認テスト
 動画視聴が完了したら、以下の確認テストに着手して下さい。
 
 - [**確認テスト**](https://forms.gle/85p1MPr8WqXTh69v8)
 
 わからない問題があれば動画を見返して確認しましょう。  
-確認テストが完了したら担当講師までDMでその旨を伝えて下さい。
+確認テストが完了したら担当講師までDMでその旨を伝えて下さい。 -->
 
 
 ## 具体的な対策・対処法
 以下のPDFも併せて確認しましょう。
 
-<iframe src="/eightbit-saurus/assets/files/%E6%83%85%E5%A0%B1%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E7%A0%94%E4%BF%AE%E7%94%A8%E8%B3%87%E6%96%99-5461e502cb473a83756ae783e060ed70.pdf" width="100%" height="700px" >
+<iframe src="/eightbit-saurus/assets/files/%E6%83%85%E5%A0%B1%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E7%A0%94%E4%BF%AE%E7%94%A8%E8%B3%87%E6%96%99-5461e502cb473a83756ae783e060ed70.pdf#toolbar=0&navpanes=0" width="100%" height="700px" >
 </iframe>
 
 [Security-PDF](./files/情報セキュリティ研修用資料.pdf)
