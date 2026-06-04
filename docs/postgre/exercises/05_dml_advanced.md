@@ -7,6 +7,10 @@ title: "DML応用演習"
 
 対応章: [6章 DML応用](../06_dml_advanced/01_overview.md)
 
+:::info 解答用紙のダウンロード
+[📄 05_dml_advanced.txt](./files/05_dml_advanced.txt) をダウンロードし、このページを見ながらテキストエディタで解答を記入してください。
+:::
+
 ---
 
 ## JOIN
