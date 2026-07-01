@@ -1,0 +1,8 @@
+{
+  "label": "制御構文とRole",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "条件分岐・ループ・Roleを使った再利用可能なPlaybook設計を学びます."
+  }
+}

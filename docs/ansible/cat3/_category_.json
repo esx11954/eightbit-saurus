@@ -1,0 +1,8 @@
+{
+  "label": "変数とテンプレート",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "変数・Inventory変数・Jinja2テンプレートを使った柔軟なPlaybook作成を学びます."
+  }
+}
